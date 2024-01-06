@@ -7,10 +7,9 @@ import Header from "../components/Header.svelte";
 	import Timeline from "../components/Timeline.svelte";
 
 </script>
-<div class="p-20">
+<div class="">
 		<MainHero/>
-		<About/>
-		<Timeline/>
 		<div class="h-32"/>
 		<Highlights/>
+		<Timeline/>
 </div>

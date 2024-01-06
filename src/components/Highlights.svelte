@@ -1,40 +1,22 @@
-<div>
-	<p class="mb-20 font-InterTight text-4xl text-[#09275E] font-semibold">Highlights</p>
+<div class="px-20 pb-20">
+	<p class="text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-5 flex flex-col text-center">Highlights</p>
 
-	<section class="text-gray-600 body-font">
-		<div class="container px-5 py-24 mx-auto">
-			<div class="flex flex-wrap -m-4 text-center">
-				<div class="p-4 sm:w-1/4 w-1/2">
-					<h2 class="title-font sm:text-6xl font-InterTight font-bold mb-5 text-3xl text-gray-900">
-						420
-					</h2>
-					<p class="leading-relax font-InterTight text-2xl text-[#09275E] font-medium">
-						Registrations
-					</p>
-				</div>
-				<div class="p-4 sm:w-1/4 w-1/2">
-					<h2 class="title-font sm:text-6xl font-InterTight font-bold mb-5 text-3xl text-gray-900">
-						24
-					</h2>
-					<p class="leading-relax font-InterTight text-2xl text-[#09275E] font-medium">
-						Keynote Addresses
-					</p>
-				</div>
-				<div class="p-4 sm:w-1/4 w-1/2">
-					<h2 class="title-font sm:text-6xl font-InterTight font-bold mb-5 text-3xl text-gray-900">
-						180
-					</h2>
-					<p class="leading-relax font-InterTight text-2xl text-[#09275E] font-medium">
-						Full Length Papers
-					</p>
-				</div>
-				<div class="p-4 sm:w-1/4 w-1/2">
-					<h2 class="title-font sm:text-6xl font-InterTight font-bold mb-5 text-3xl text-gray-900">
-						560
-					</h2>
-					<p class="leading-relax font-InterTight text-2xl text-[#09275E] font-medium">Abstracts</p>
-				</div>
+	<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5">
+			<div class="flex items-center flex-col">
+				<h1 class="text-black font-InterTight font-bold text-6xl">420</h1>
+				<h2 class="text-black font-InterTight text-xl">Registrations</h2>
 			</div>
-		</div>
-	</section>
+			<div class="flex items-center flex-col">
+				<h1 class="text-black font-InterTight font-bold text-6xl">560</h1>
+				<h2 class="text-black font-InterTight text-xl">Abstracts</h2>
+			</div>
+			<div class="flex items-center flex-col">
+				<h1 class="text-black font-InterTight font-bold text-6xl">180</h1>
+				<h2 class="text-black font-InterTight text-xl">Full-length Papers</h2>
+			</div>
+			<div class="flex items-center flex-col">
+				<h1 class="text-black font-InterTight font-bold text-6xl">40+</h1>
+				<h2 class="text-black font-InterTight text-xl">Talks</h2>
+			</div>
+	</div>
 </div>

@@ -1,15 +1,15 @@
 <header class=" body-font">
 	<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 		
-		<nav class="md:ml-auto md:mr-auto flex flex-wrap items-center  justify-center font-InterTight text-xl font-bold">
-			<a class="mr-8 cursor-pointer hover:text-gray-900">Home</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">About</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">Speakers</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">Committees</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">Registration</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">Awards</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">Sponsors</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900">Contact Us</a>
+		<nav class="md:ml-auto md:mr-auto flex flex-wrap items-center  justify-center font-InterTight text-lg">
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Home</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">About</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Speakers</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Committees</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Registration</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Awards</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Sponsors</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Contact Us</a>
             
 		</nav>
 		<!-- <button

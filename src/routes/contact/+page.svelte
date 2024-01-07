@@ -2,7 +2,7 @@
     <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">Contact</h1>
     <div class="grid grid-cols-2 justify-center md:grid-cols-3 lg:grid-cols-4 text-center items-center gap-5 py-10">
         {#each contacts as {name, department, college, title, email, phone}}
-            <div class="bg-blue-200 px-5 py-5 rounded-xl items-center flex flex-col">
+            <div class="bg-blue-200 px-5 py-5 rounded-xl items-center flex flex-col shadow-2xl">
                 <h1 class="text-black font-InterTight text-xl lg:text-2xl font-bold">{name}</h1>
                 <h1 class="text-stone-700 lg:text-lg font-InterTight">{department}</h1>
                 <h1 class="text-stone-700 lg:text-lg font-InterTight">{college}</h1>

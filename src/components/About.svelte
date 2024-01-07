@@ -14,7 +14,7 @@
 			fluid mechanics and nanoelectronics.
 		</p>
 	</div>
-    <div class="justify-center flex-1 mt-[-170px] mr-[-900px]">
+    <div class="justify-center flex-1 ">
         <img src={Flower} class="w-[670px]"/>
     </div>
 </div>

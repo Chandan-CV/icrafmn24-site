@@ -9,5 +9,5 @@
     <Header/>
     <Navbar/>
     <slot />
+    <Footer/>
   </body>
-  <Footer/>

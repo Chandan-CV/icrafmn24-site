@@ -5,9 +5,13 @@
 	import Navbar from "../components/Navbar.svelte";
   </script>
   
-  <body class="from-[#ffffff] to-[#9ec0ff] bg-gradient-to-b ">
-    <Header/>
-    <Navbar/>
+  <body class="from-[#ffffff] to-[#9ec0ff] bg-gradient-to-b justify-between flex flex-col min-h-screen">
+    <div>
+      <Header/>
+      <Navbar/>
     <slot />
-    <Footer/>
+    </div>
+    <div>
+      <Footer/>
+    </div>
   </body>

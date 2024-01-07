@@ -2,14 +2,14 @@
 	<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 		
 		<nav class="md:ml-auto md:mr-auto flex flex-wrap items-center  justify-center font-InterTight text-lg">
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Home</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">About</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Speakers</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Committees</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Registration</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Awards</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Sponsors</a>
-            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold">Contact Us</a>
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="/">Home</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="about">About</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="speakers">Speakers</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="committees">Committees</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="registration">Registration</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="awards">Awards</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="sponsors">Sponsors</a>
+            <a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="contact">Contact Us</a>
             
 		</nav>
 		<!-- <button

@@ -8,19 +8,22 @@
       { title: 'Conference concludes', date: 'January 5, 2022' },
     ];
   
+    /**
+	 * @param {number} numItems
+	 */
     function calculateWidth(numItems) {
       return `${100 / numItems}%`;
     }
   </script>
   
-  <div class="w-full flex flex-col ">
-    <p class="text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col text-center">Timeline</p>
+  <div class="w-full flex flex-col p-20 ">
+    <p class="text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col mb-10 text-center">Timeline</p>
   
-    <ol class="flex flex-col sm:flex-row w-full">
+    <ol class="flex flex-col sm:flex-row w-full justify-center ">
       {#each timelineItems as { title, date }, index (index)}
         <li
           class="relative mb-6 sm:mb-0 sm:flex-1"
-          style="width: {calculateWidth(timelineItems.length)};"
+
         >
           <div class="flex items-center">
             <div

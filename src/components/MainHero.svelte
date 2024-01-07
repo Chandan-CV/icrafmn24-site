@@ -8,9 +8,9 @@
         isSpinning = !isSpinning;
     }
 </script>
-<div class="pl-20 pt-20">
+<div class="pl-20 pt-20 overflow-hidden">
     <div class="w-3/4">
-        <p class="font-InterTight text-5xl md:text-6xl lg:text-6xl font-semibold text-[#09275E]">ICRAFMN-24</p>
+        <p class="font-InterTight text-3xl md:text-6xl lg:text-6xl sm:text-6xl font-semibold text-[#09275E]">ICRAFMN-24</p>
         <p class="font-InterTight text-xl md:text-2xl lg:text-2xl font-light  text-[#5D5D5D]">International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics</p>
         <p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold  text-[#042BF8]">Organised by Manipal Institute of Technology, Bangalore</p>
     </div>
@@ -19,7 +19,7 @@
     </div>
     <div class="flex flex-col ">
         <p class=" text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col">About</p>
-        <div class="flex">
+        <div class="flex overflow-x-hidden max-w-full">
             <p class="text-lg md:text-xl lg:text-xl text-[#505050] w-8/12">
                 A three-day International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics
                 (ICRAFMN – 2023)is being hosted by Manipal Institute of Technology (MIT) Bengaluru in
@@ -31,8 +31,7 @@
             <img
             src={FlowerShit}
             alt=""
-            class="object-cover w-1/3 h-96 object-left"
-            transition:fly="{{ y: isSpinning ? 0 : 100, duration: 2000 }}"
+            class="object-cover w-1/3  hidden sm:flex animate-spin-slow absolute right-[-15%] top-52"
             >
         </div>
 	</div>

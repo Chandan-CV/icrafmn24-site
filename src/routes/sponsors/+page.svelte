@@ -3,7 +3,7 @@
     <div class="py-10 flex flex-col">
         <div class="flex flex-col text-black font-intertight text-lg text-center gap-3">
             <p>We are pleased to offer you a variety of sponsorship opportunities that will assist you in achieving your business goals.</p>
-            <p>Sponsoring ICRAFMN 2023 offers a unique opportunity for a company or organization to increase its visibility and product awareness within a highly specialized, influential community.</p>
+            <p>Sponsoring ICRAFMN 2024 offers a unique opportunity for a company or organization to increase its visibility and product awareness within a highly specialized, influential community.</p>
             <p>Sponsor acknowledgments, including the company's name, product, and logo, will appear on the conference's main page and in all official conference documentation.</p>
         </div>
         <div class="py-10 flex gap-3 flex-col">

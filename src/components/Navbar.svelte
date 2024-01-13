@@ -25,6 +25,9 @@
 			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="contact"
 				>Contact Us</a
 			>
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="ptv"
+				>Places to visit</a
+			>
 		</nav>
 		<!-- <button
 			class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"

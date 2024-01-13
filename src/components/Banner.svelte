@@ -47,8 +47,8 @@
 
 
 
-<div id="banner-inner-contain" class=" ">
-	<div class=" w-full bg-opacity-0 flex justify-center items-center z-[7]">
+<div id="banner-inner-contain" class="">
+	<div class=" w-full bg-opacity-0 flex justify-center items-center">
 		<div id="banner-img-container " class="">
 			<div class="align-middle flex flex-col ">
 				<div
@@ -64,63 +64,3 @@
 	
 	</div>
 </div>
-
-<style>
-	.fadeThisOut {
-		animation-name: fadeOut;
-		animation-timing-function: ease-out;
-		animation-duration: 1000ms;
-		animation-iteration-count: 1;
-		animation-fill-mode: forward;
-		transition: all;
-	}
-
-	@keyframes fadeOut {
-		0% {
-			opacity: 100%;
-		}
-
-		105% {
-			opacity: 0;
-		}
-	}
-
-	.backgroundpan {
-		background-size: 200%;
-		animation: backgroundpanAnim 4000ms linear infinite;
-	}
-
-	@keyframes backgroundpanAnim {
-		from {
-			background-position: 0% center;
-		}
-		to {
-			background-position: -200% center;
-		}
-	}
-
-	.countFadeIn {
-		animation-name: fadeInCount;
-		animation-duration: 3000ms;
-		animation-iteration-count: 1;
-		animation-fill-mode: forward;
-		animation-timing-function: ease-out;
-	}
-
-	@keyframes fadeInCount {
-		0% {
-			transform: translateY(-50px);
-			opacity: 0;
-		}
-
-		50% {
-			transform: translateY(-50px);
-			opacity: 0;
-		}
-
-		100% {
-			transform: translateY(0px);
-			opacity: 100%;
-		}
-	}
-</style>

@@ -11,6 +11,6 @@ import Header from "../components/Header.svelte";
 		<MainHero/>
 		<div class="mt-[-100px]"/>
 		<Timeline/>
-		<div class="h-32"/>
+		<div class=""/>
 		<Highlights/>
 </div>

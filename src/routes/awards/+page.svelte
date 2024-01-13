@@ -1,6 +1,6 @@
-<div class="flex items-center flex-col px-8">
+<div class="flex items-center flex-col px-8 text-justify">
     <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">Awards</h1>
-    <div class="flex flex-col items-center text-center gap-5 py-10">
+    <div class="flex flex-col items-center  gap-5 py-10">
         {#each awards as award}
             <div class="flex flex-col gap-4 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14 text-white bg-blue-900 px-3 py-3 rounded-full">

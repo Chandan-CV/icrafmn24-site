@@ -4,7 +4,7 @@
     <h1 class="text-black font-InterTight font-semibold text-2xl pb-5">Fee Table</h1>
     <table class="table-auto text-black font-InterTight w-full text-center text-lg">
         <tr class="">
-          <th colspan="5" class="font-semibold">Registration Fee (last date June 11, 2023)</th>
+          <th colspan="5" class="font-semibold">Registration Fee (last date April 15, 2024)</th>
         </tr>
         <tr class="text-sm font-bold">
           <td>Nationality</td>
@@ -27,18 +27,18 @@
           <td colspan="4">USD 20/-*</td>
         </tr>
       </table>
-      <div class="py-5 flex flex-col gap-3">
-        <p>*Including GST, registration kit (backpack, notepad, 16gb pen drive, pen, brochure, schedule, etc.), certificate, breakfast, lunch, tea/coffee during the conference.</p>
+      <div class="py-5 flex flex-col gap-3 text-justify">
+        <p>*Including GST, registration kit, certificate, breakfast, lunch, tea/coffee during the conference.</p>
         <p>*Special Discount in the registration fees will be offered to IAESTE membership students and participants belonging to SAARC countries. To avail the special discount please write an email to icrafmn2023@manipal.edu.</p>
         <p>The conference registration fee includes abstract presentation and food during the conference. There are no article processing charges for publishing papers in special issues.</p>
             <p class="font-semibold">
-                Accommodation will be provided in MIT Bengaluru hostels (against payment) based on the availability. Further, there is also a provision for accompanying person and for more details regarding accommodation please feel free to contact Mr. Aditya G. S. S. or Dr. Ramya M.
+                Accommodation will be provided in MUJ hostels (against payment) based on the availability. Further, there is also a provision for accompanying person and for more details regarding accommodation please feel free to contact Dr. Mohd. Rizwanullah | Dr. Virendra Singh Chouhan | Dr. Sandeep Kumar.
             </p>
             <p class="font-semibold text-red-600">
-                The registration is complete only after the successful payment of the registration fees. For participants from abroad, an invoice will be generated in your name and will be sent to you along with MAHE bank account details to complete the registration process. Please write to us at icrafmn2023@manipal.edu for the invoice with your details.
+                The registration is complete only after the successful payment of the registration fees. For participants from abroad, an invoice will be generated in your name and will be sent to you along with MAHE bank account details to complete the registration process. Please write to us at alok.bhargava@jaipur.manipal.edu for the invoice with your details.
             </p>
         <p class="text-lg font-bold">Only international participants can choose to present in a hybrid mode. But we'd like to meet people from other countries in person.</p>
-        <p class="text-lg font-bold">Students/Research Scholars without any financial support can request through email for free accommodation.</p>
+        <!-- <p class="text-lg font-bold">Students/Research Scholars without any financial support can request through email for free accommodation.</p> -->
       </div>
     </div>
 </div>

@@ -1,6 +1,7 @@
 <script>
 	import FlowerShit from '../lib/images/FlowerShit.png';
 	import { fly } from 'svelte/transition';
+	import Countdown from './Countdown.svelte';
 	let isSpinning = true; // Add a variable to control the spinning animation
 
 	// Function to toggle the spinning animation
@@ -10,12 +11,13 @@
 </script>
 
 <div class="pl-20 pt-20 overflow-hidden">
-	<div class="w-3/4">
+	<div class="w-3/4 space-y-4">
 		<p
 			class="font-InterTight text-3xl md:text-6xl lg:text-6xl sm:text-6xl font-semibold text-[#FFFFFF]"
 		>
 			ICRAFMN-24
 		</p>
+		<Countdown/>
 		<p class="font-InterTight text-xl md:text-2xl lg:text-2xl font-semibold text-stone-300">
 			International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics
 		</p>

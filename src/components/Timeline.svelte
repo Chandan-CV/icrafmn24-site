@@ -1,11 +1,11 @@
 <script>
     // Timeline items data
     let timelineItems = [
-      { title: 'Abstract Submission', date: 'December 2, 2021' },
-      { title: 'Registration fee deadline', date: 'December 23, 2021' },
-      { title: 'Final Paper Submission', date: 'January 5, 2022' },
-      { title: 'Conference Begins', date: 'January 5, 2022' },
-      { title: 'Conference concludes', date: 'January 5, 2022' },
+      { title: 'Abstract Submission', date: 'March 31, 2024' },
+      { title: 'Registration fee deadline', date: 'April 15, 2024' },
+      { title: 'Final Paper Submission', date: 'April 30, 2024' },
+      { title: 'Conference Begins', date: 'July 10, 2024' },
+      { title: 'Conference concludes', date: 'July 12, 2024' },
     ];
   
     /**
@@ -22,7 +22,7 @@
     <ol class="flex flex-col sm:flex-row w-full justify-center ">
       {#each timelineItems as { title, date }, index (index)}
         <li
-          class="relative mb-6 sm:mb-0 sm:flex-1"
+          class=" mb-6 sm:mb-0 sm:flex-1"
 
         >
           <div class="flex items-center">

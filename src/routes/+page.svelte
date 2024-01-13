@@ -9,9 +9,8 @@ import Header from "../components/Header.svelte";
 </script>
 <div class="">
 		<MainHero/>
-		<div class="h-32"/>
+		<div class="mt-[-100px]"/>
 		<Timeline/>
 		<div class="h-32"/>
-
 		<Highlights/>
 </div>

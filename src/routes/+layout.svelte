@@ -9,5 +9,7 @@
     <Header/>
     <Navbar/>
     <slot />
-    <Footer/>
+    <div class="bottom-0  w-full">
+      <Footer/>
+    </div>
   </body>

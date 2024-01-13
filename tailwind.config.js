@@ -6,9 +6,9 @@ export default {
 			fontFamily: {
 				InterTight: ['Inter Tight', 'sans-serif']
 			},
-			animation: {
-				'spin-slow': 'spin 8s linear infinite',
-			  }
+			animation:{
+				'spin-slow':'spin 8s linear infinite'
+			}
 		}
 	},
 	plugins: []

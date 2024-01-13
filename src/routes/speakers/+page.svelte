@@ -83,32 +83,32 @@
         <div class="flex flex-col md:flex-row lg:flex-row justify-between w-full">
             <div>
                 <div class="flex flex-col py-8">
-                    <h1 class="font-InterTight text-blue-950 font-semibold text-3xl pb-4">Plenary Talk</h1>
+                    <h1 class="font-InterTight text-blue-100 font-semibold text-3xl pb-4">Plenary Talk</h1>
                     {#each plenaryTalk as {name, title}}
-                        <h1 class="font-InterTight text-black font-semibold text-xl">{name}</h1>
-                        <h2 class="font-InterTight text-stone-700 font-normal">{title}</h2>
+                        <h1 class="font-InterTight text-white font-semibold text-xl">{name}</h1>
+                        <h2 class="font-InterTight text-blue-200 font-semibold">{title}</h2>
                     {/each}
                 </div>
                 <div class="flex flex-col py-8">
-                    <h1 class="font-InterTight text-blue-950 font-semibold text-3xl pb-4">Invited Talk</h1>
+                    <h1 class="font-InterTight text-blue-100 font-semibold text-3xl pb-4">Invited Talk</h1>
                     {#each invited as {name, title}}
-                        <h1 class="font-InterTight text-black font-semibold text-xl">{name}</h1>
-                        <h2 class="font-InterTight text-stone-700 font-normal">{title}</h2>
+                        <h1 class="font-InterTight text-white font-semibold text-xl">{name}</h1>
+                        <h2 class="font-InterTight text-blue-200 font-semibold">{title}</h2>
                     {/each}
                 </div>
                 <div class="flex flex-col py-8">
-                    <h1 class="font-InterTight text-blue-950 font-semibold text-3xl pb-4">Industry Speakers</h1>
+                    <h1 class="font-InterTight text-blue-100 font-semibold text-3xl pb-4">Industry Speakers</h1>
                     {#each industry as {name, title}}
-                        <h1 class="font-InterTight text-black font-semibold text-xl">{name}</h1>
-                        <h2 class="font-InterTight text-stone-700 font-normal">{title}</h2>
+                        <h1 class="font-InterTight text-white font-semibold text-xl">{name}</h1>
+                        <h2 class="font-InterTight text-blue-200 font-semibold">{title}</h2>
                     {/each}
                 </div>
             </div>
             <div class="flex flex-col py-8">
-                <h1 class="font-InterTight text-blue-950 font-semibold text-3xl pb-4">Keynotes</h1>
+                <h1 class="font-InterTight text-blue-100 font-semibold text-3xl pb-4">Keynotes</h1>
                     {#each keynote as {name, title}}
-                        <h1 class="font-InterTight text-black font-semibold text-xl">{name}</h1>
-                        <h2 class="font-InterTight text-stone-700 font-normal">{title}</h2>
+                        <h1 class="font-InterTight text-white font-semibold text-xl">{name}</h1>
+                        <h2 class="font-InterTight text-blue-200 font-semibold">{title}</h2>
                     {/each}
             </div>
         </div>

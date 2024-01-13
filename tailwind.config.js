@@ -7,7 +7,7 @@ export default {
 				InterTight: ['Inter Tight', 'sans-serif']
 			},
 			animation: {
-				'spin-slow': 'spin 8s linear infinite',
+				'spin-slow': 'spin 40s linear infinite',
 			  }
 		}
 	},

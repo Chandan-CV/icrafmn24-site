@@ -29,7 +29,7 @@
       </table>
       <div class="py-5 flex flex-col gap-3 text-justify">
         <p>*Including GST, registration kit, certificate, breakfast, lunch, tea/coffee during the conference.</p>
-        <p>*Special Discount in the registration fees will be offered to IAESTE membership students and participants belonging to SAARC countries. To avail the special discount please write an email to icrafmn2023@manipal.edu.</p>
+        <p>*Special Discount in the registration fees will be offered to IAESTE membership students and participants belonging to SAARC countries. To avail the special discount please write an email to icrafmn2024@manipal.edu.</p>
         <p>The conference registration fee includes abstract presentation and food during the conference. There are no article processing charges for publishing papers in special issues.</p>
             <p class="font-semibold">
                 Accommodation will be provided in MUJ hostels (against payment) based on the availability. Further, there is also a provision for accompanying person and for more details regarding accommodation please feel free to contact Dr. Mohd. Rizwanullah | Dr. Virendra Singh Chouhan | Dr. Sandeep Kumar.

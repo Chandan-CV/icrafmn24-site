@@ -41,9 +41,9 @@
 			<div class="flex overflow-x-hidden max-w-full overflow-hidden">
 				<p class=" text-lg sm:text-xl text-[#272727] text-justify" style="line-height: 1.9;">
 					A three-day 2<sup>nd</sup> International Conference on Recent Advances in Fluid Mechanics and
-					Nanoelectronics (ICRAFMN – 2023) is being hosted by Manipal University Jaipur in association
+					Nanoelectronics (ICRAFMN – 2024) is being hosted by Manipal University Jaipur in association
 					with Manipal Institute of Technology (MIT) Bengaluru and NIT Uttarakhand from 10th-12th July
-					2023 at MIT Bengaluru. The conference aims to provide an excellent venue for multidisciplinary
+					2024 at MIT Bengaluru. The conference aims to provide an excellent venue for multidisciplinary
 					academicians, engineers, scientists, researchers, and industry professionals to present their
 					fluid mechanics and nanoelectronics research findings. The conference covers varied topics,
 					such as experimental, analytical, and computational aspects of fluid mechanics and nanoelectronics

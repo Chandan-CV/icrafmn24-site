@@ -22,7 +22,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
         {
@@ -30,7 +30,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
         {
@@ -38,7 +38,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
         {
@@ -46,7 +46,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
         {
@@ -54,7 +54,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
         {
@@ -62,7 +62,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
         {
@@ -70,7 +70,7 @@
             department : "Dept. of Mathematics",
             college : "MIT Bengaluru",
             title : "Convener, ICRAFMN-24",
-            email : "icrafmn2023@manipal.edu",
+            email : "icrafmn2024@manipal.edu",
             phone : "+918123158384"
         },
 

@@ -180,6 +180,10 @@ interface ConferenceData {
         designation: "Department of Electrical and Electronics Engineering, MIT, Bengaluru"
       },
       {
+        name:"Dr. Shruthi",
+        designation:"Department of Mathematics, MIT, Bengaluru"
+      },
+      {
         name: "Dr. Ram Naresh Saraswat",
         designation: "Department of Mathematics and Statistics, MUJ, Jaipur"
       },

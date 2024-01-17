@@ -4,7 +4,7 @@
 </script>
 
 <div class="px-20 pb-20 w-full">
-	<a class="text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-5 flex flex-col text-center mb-20" href="https://conference.manipal.edu/ICRAFMN-2024/Default">ICRAFMN-2024 Highlights</a>
+	<a class="text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-5 flex flex-col text-center mb-20" href="https://conference.manipal.edu/ICRAFMN-2024/Default">ICRAFMN-2023 Highlights</a>
 
 	<div class="flex flex-wrap -m-4 text-center w-full justify-evenly">
 		<div class="flex items-center mb-20 flex-col">

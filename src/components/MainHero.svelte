@@ -16,18 +16,30 @@
 	<div class="flex flex-col justify-center items-center text-center">
 		<div class="w-3/4"></div>
 		<p
-			class="font-InterTight text-3xl md:text-6xl lg:text-6xl sm:text-xl font-semibold text-[#09275E]"
+			class="font-InterTight text-3xl md:text-6xl lg:text-6xl sm:text-xl font-semibold text-[#09265d]"
 		>
 			ICRAFMN-24
 		</p>
 		<p class="font-InterTight text-xl sm:text-3xl font-semibold text-[#5D5D5D] p-5">
 			2<sup>nd</sup> International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics
 		</p>
-		<div class=" text-2xl font-InterTight font-normal pt-5 text-[#09275E] pb-4">July 12 - 14</div>
-		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-[#042BF8]">
-			Oranised by Manipal University Jaipur <br /> in association with <br /> Manipal Institute of
-			Technology Bengaluru <br /> & <br />NIT Uttarakhand
+		<div class=" text-2xl font-InterTight font-normal pt-5 text-[#09275E] pb-4">July 10 - 12, 2024</div>
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-light text-[#09265d]">
+			Organized by
 		</p>
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-[#042BF8]">
+			Manipal University Jaipur 
+		</p>
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-light text-[#09265d]">
+			In association with
+		</p>
+
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-[#042BF8]">
+			Manipal Institute of
+			Technology Bengaluru <br /> & <br />National Institute of Technology Uttarakhand
+
+		</p>
+
 	</div>
 	<!-- <div class=" text-2xl font-InterTight font-normal pt-5 text-[#09275E] pb-4">July 12 - 14</div> -->
 	<div class="mt-20 w-full flex flex-col justify-center items-center">
@@ -42,8 +54,8 @@
 				<p class=" text-lg sm:text-xl text-[#272727] text-justify" style="line-height: 1.9;">
 					A three-day 2<sup>nd</sup> International Conference on Recent Advances in Fluid Mechanics and
 					Nanoelectronics (ICRAFMN – 2024) is being hosted by Manipal University Jaipur in association
-					with Manipal Institute of Technology (MIT) Bengaluru and NIT Uttarakhand from 10th-12th July
-					2024 at MIT Bengaluru. The conference aims to provide an excellent venue for multidisciplinary
+					with Manipal Institute of Technology Bengaluru and National Institute of Technology Uttarakhand from 10th-12th July
+					2024 at Manipal University Jaipur. The conference aims to provide an excellent venue for multidisciplinary
 					academicians, engineers, scientists, researchers, and industry professionals to present their
 					fluid mechanics and nanoelectronics research findings. The conference covers varied topics,
 					such as experimental, analytical, and computational aspects of fluid mechanics and nanoelectronics

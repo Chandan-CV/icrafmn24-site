@@ -114,7 +114,7 @@
 					on:click={() => {
 						showMenu = false;
 					}}
-					href="publication">Publications</a
+					href="publications">Publications</a
 				>
 					<a
 						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"

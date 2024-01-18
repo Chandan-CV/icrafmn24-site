@@ -29,7 +29,7 @@
 				>Places to visit</a
 			>
 		</nav>
-		<div class="lg:hidden flex gap-3 xl:hidden bg-blue-300/50 rounded-xl w-full transition-all ease-in-out text-blue-950 font-bold p-3 items-center justify-center">
+		<div class="lg:hidden flex gap-3 xl:hidden bg-blue-100/50 rounded-xl w-full transition-all text-blue-800 font-bold p-3 items-center justify-center">
 			{#if !showMenu}
 			<button  on:click={() => {showMenu = !showMenu}} class="flex gap-3 items-center">
 				<h1 class="text-2xl">Menu</h1>

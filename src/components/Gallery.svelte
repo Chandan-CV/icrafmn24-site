@@ -12,11 +12,11 @@
     
     </script>
 
-<Splide aria-label="My Favorite Images" options={{autoplay:true, interval:2000, type:"loop"}}>
+<Splide aria-label="ICRAFMN 2023 Images" options={{autoplay:true, interval:2000, type:"loop"}}>
 	{#each Images as image }
    <SplideSlide>
-       <div class="flex w-full justify-center items-center">
-           <img src={image} alt="Image 1" class="w-1/2" />
+       <div class="flex w-full justify-center items-center ">
+           <img src={image} alt="Icrafmn 2024" class=" sm:w-1/2 min-w-[50px] "/>
         </div>
     </SplideSlide>
     {/each}

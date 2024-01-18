@@ -8,7 +8,9 @@
   <body class="from-[#ffffff] to-[#9ec0ff] bg-gradient-to-b overflow-x-hidden h-screen">
     <Header/>
     <Navbar/>
-    <slot />
+    <div class="min-h-screen">
+      <slot />
+    </div>
     <div class="bottom-0  w-full">
       <Footer/>
     </div>

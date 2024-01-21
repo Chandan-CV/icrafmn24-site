@@ -5,7 +5,7 @@
 	import Navbar from "../components/Navbar.svelte";
   </script>
   
-  <body class="from-[#ffffff] to-[#9ec0ff] bg-gradient-to-b overflow-x-hidden h-screen">
+  <body class="from-[#ffd187] to-[#ffa04d] bg-gradient-to-b overflow-x-hidden h-screen">
     <Header/>
     <Navbar/>
     <div class="min-h-screen">

@@ -49,15 +49,15 @@
 <style>
   .number-thingy{
       font-weight: bold;
-      color: #09275E;
+      color: #3a1f00;
   }
 </style>
 
 <div>
-  <div class="font-InterTight text-base font-semibold sm:text-xl mb-10 text-center">
-    <span class="number-thingy sm:text-5xl text-2xl">{countdown.days}</span> days{" "}
-    <span class="number-thingy sm:text-5xl text-2xl">{countdown.hours}</span> hours{" "}
-    <span class="number-thingy sm:text-5xl text-2xl">{countdown.minutes}</span> minutes{" "}
-    <span class="number-thingy sm:text-5xl text-2xl">{countdown.seconds}</span> seconds
+  <div class="font-InterTight text-base font-semibold sm:text-xl mb-10 text-center items-center flex gap-3 bg-orange-200 p-5 rounded-full">
+    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.days}</span> days{" "}
+    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.hours}</span> hours{" "}
+    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.minutes}</span> minutes{" "}
+    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.seconds}</span> seconds
   </div>
 </div>

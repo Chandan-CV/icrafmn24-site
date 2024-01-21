@@ -66,7 +66,7 @@
 </script>
 
 <div class="flex items-center flex-col px-8">
-    <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">Scope of Conference</h1>
+    <h1 class="font-InterTight text-3xl font-semibold text-orange-950">Scope of Conference</h1>
     <div class="flex flex-col lg:flex-row lg:items-start gap-5 py-10 items-center">
         {#each scope as subject}
             <div class="flex flex-col items-center">

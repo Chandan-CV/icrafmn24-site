@@ -2,44 +2,44 @@
 	var showMenu = false;
 </script>
 
-<header class=" body-font">
+<header class="py-5 body-font">
 	<div
-		class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center"
+		class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center bg-orange-600 font-InterTight text-white font-semibold rounded-xl"
 	>
 		<nav
 			class=" md:ml-auto md:mr-auto hidden lg:flex flex-wrap items-center justify-center font-InterTight text-lg"
 		>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="/">Home</a>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="about">About</a>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="speakers"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="/">Home</a>
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="about">About</a>
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="speakers"
 				>Speakers</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="committees"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="committees"
 				>Committees</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="submission"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="submission"
 				>Submission</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="publications"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="publications"
 				>Publications</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="registration"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="registration"
 				>Registration</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="awards">Awards</a
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="awards">Awards</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="sponsors"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="sponsors"
 				>Sponsors</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="contact"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="contact"
 				>Contact Us</a
 			>
-			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold" href="ptv"
+			<a class="mr-8 cursor-pointer hover:text-gray-900 hover:font-semibold hover:bg-orange-300 p-2 rounded-full" href="ptv"
 				>Places to visit</a
 			>
 		</nav>
 		<div
-			class="lg:hidden flex gap-3 xl:hidden bg-blue-300/50 rounded-xl w-full transition-all ease-in-out text-blue-950 font-bold p-3 items-center justify-center"
+			class="lg:hidden flex gap-3 xl:hidden rounded-xl w-full transition-all ease-in-out text-orange-200 font-bold items-center justify-center"
 		>
 			{#if !showMenu}
 				<button
@@ -65,87 +65,87 @@
 					</svg>
 				</button>
 			{:else}
-				<div class="flex flex-col items-center justify-center gap-2 hover:text-blue-600">
+				<div class="flex flex-col items-center justify-center gap-2 hover:text-orange-600">
 					<button
 						on:click={() => {
 							showMenu = !showMenu;
 						}}
-						class="hover:text-red-600"
+						class="text-white"
 					>
 						<h1>Close</h1>
 					</button>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="/">Home</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="about">About</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="speakers">Speakers</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="committees">Committees</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="submission">Submission</a
 					>
 					<a
-					class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+					class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 					on:click={() => {
 						showMenu = false;
 					}}
 					href="publications">Publications</a
 				>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="registration">Registration</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="awards">Awards</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="sponsors">Sponsors</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="contact">Contact Us</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-blue-900 px-5"
+						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
@@ -177,7 +177,7 @@
 		font-size: 30px;
 	}
 	.hamburger:hover {
-		color: rgb(92, 92, 255);
-		background-color: aliceblue;
+		color: white;
+		background-color: orange;
 	}
 </style>

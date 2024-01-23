@@ -18,7 +18,7 @@
 		<p
 			class="font-InterTight text-3xl md:text-6xl lg:text-6xl sm:text-xl font-semibold text-[#09265d]"
 		>
-			ICRAFMN-24
+			ICRAFMN-2024
 		</p>
 		<p class="font-InterTight text-xl sm:text-3xl font-semibold text-[#5D5D5D] p-5">
 			2<sup>nd</sup> International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics
@@ -48,7 +48,7 @@
 	<div class="flex flex-row sm:pl-20 p-5">
 		<div class="flex flex-col justify-center">
 			<p class=" text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col">
-				About
+				About Conference
 			</p>
 			<div class="flex overflow-x-hidden max-w-full overflow-hidden">
 				<p class=" text-lg sm:text-xl text-[#272727] text-justify" style="line-height: 1.9;">

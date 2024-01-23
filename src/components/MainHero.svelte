@@ -12,29 +12,29 @@
 	}
 </script>
 
-<div class="pt-20 overflow-hidden">
+<div class="pt-10 overflow-hidden px-8">
 	<div class="flex flex-col justify-center items-center text-center">
 		<div class="w-3/4"></div>
 		<p
-			class="font-InterTight text-3xl md:text-6xl lg:text-6xl sm:text-xl font-semibold text-[#09265d]"
+			class="font-serif text-3xl md:text-6xl lg:text-6xl sm:text-xl font-semibold text-orange-950"
 		>
-			ICRAFMN-24
+			ICRAFMN-2024
 		</p>
-		<p class="font-InterTight text-xl sm:text-3xl font-semibold text-[#5D5D5D] p-5">
+		<p class="font-InterTight text-xl sm:text-3xl font-semibold text-orange-700 p-5">
 			2<sup>nd</sup> International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics
 		</p>
 		<div class=" text-2xl font-InterTight font-normal pt-5 text-[#09275E] pb-4">July 10 - 12, 2024</div>
-		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-light text-[#09265d]">
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-light text-orange-950">
 			Organized by
 		</p>
-		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-[#042BF8]">
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-orange-700">
 			Manipal University Jaipur 
 		</p>
-		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-light text-[#09265d]">
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-light text-orange-950">
 			In association with
 		</p>
 
-		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-[#042BF8]">
+		<p class="font-InterTight text-lg md:text-xl lg:text-xl font-semibold text-orange-700">
 			Manipal Institute of
 			Technology Bengaluru <br /> & <br />National Institute of Technology Uttarakhand
 
@@ -45,12 +45,12 @@
 	<div class="mt-20 w-full flex flex-col justify-center items-center">
 		<Countdown/>
 	</div>
-	<div class="flex flex-row sm:pl-20 p-5">
+	<div class="flex flex-row p-5">
 		<div class="flex flex-col justify-center">
-			<p class=" text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col">
+			<p class=" text-2xl md:text-3xl lg:text-3xl font-semibold text-orange-950 pb-3 flex flex-col">
 				About
 			</p>
-			<div class="flex overflow-x-hidden max-w-full overflow-hidden">
+			<div class="flex overflow-hidden">
 				<p class=" text-lg sm:text-xl text-[#272727] text-justify" style="line-height: 1.9;">
 					A three-day 2<sup>nd</sup> International Conference on Recent Advances in Fluid Mechanics and
 					Nanoelectronics (ICRAFMN – 2024) is being hosted by Manipal University Jaipur in association
@@ -68,10 +68,5 @@
 				</p>
 			</div>
 		</div>
-		<img
-			src={FlowerShit}
-			alt=""
-			class="object-cover w-[600px] h-[600px] right-[-7%] relative hidden sm:flex animate-spin-slow"
-		/>
 	</div>
 </div>

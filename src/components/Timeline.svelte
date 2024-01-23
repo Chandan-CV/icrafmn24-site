@@ -16,10 +16,10 @@
     }
   </script>
   
-  <div class="w-full flex flex-col p-20 ">
-    <p class="text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col mb-10 text-center">Timeline</p>
+  <div class="w-full flex flex-col p-20">
+    <p class="text-2xl md:text-3xl lg:text-3xl font-semibold text-orange-950 pb-3 flex flex-col mb-10 text-center">Timeline</p>
   
-    <ol class="flex flex-col sm:flex-row w-full justify-center ">
+    <ol class="flex flex-col sm:flex-row w-full justify-center">
       {#each timelineItems as { title, date }, index (index)}
         <li
           class=" mb-6 sm:mb-0 sm:flex-1"
@@ -27,10 +27,10 @@
         >
           <div class="flex items-center">
             <div
-              class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0"
+              class="z-10 flex items-center justify-center w-6 h-6 bg-orange-900 rounded-full ring-0 ring-orange-900 sm:ring-8 shrink-0"
             >
               <svg
-                class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                class="w-3 h-3 text-orange-300"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

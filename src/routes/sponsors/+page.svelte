@@ -1,5 +1,5 @@
 <div class="flex items-center flex-col px-8">
-    <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">ICRAFMN-24 Sponsor Options</h1>
+    <h1 class="font-InterTight text-3xl font-semibold text-orange-950">ICRAFMN-24 Sponsor Options</h1>
     <div class="py-10 flex flex-col">
         <div class="flex flex-col text-black font-intertight text-lg text-center gap-3">
             <p>We are pleased to offer you a variety of sponsorship opportunities that will assist you in achieving your business goals.</p>

@@ -1,5 +1,5 @@
 <div class="flex items-center flex-col px-8">
-    <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">Online Registration and Payment</h1>
+    <h1 class="font-InterTight text-3xl font-semibold text-orange-950">Online Registration and Payment</h1>
     <div class="w-full py-10">
     <h1 class="text-black font-InterTight font-semibold text-2xl pb-5">Fee Table</h1>
     <table class="table-auto text-black font-InterTight w-full text-center text-lg">

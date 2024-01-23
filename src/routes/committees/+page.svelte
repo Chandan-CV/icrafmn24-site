@@ -356,18 +356,18 @@ interface ConferenceData {
 
 <div class=" flex flex-row flex-wrap justify-center ">
     {#each data.committees as comm}
-        <div class="bg-white p-5 m-5  rounded-xl shadow-lg flex flex-col justify-center text-center items-center h-fit min-w-96">
-            <div class="text-2xl font-InterTight font-semibold text-[#09275E] pb-3 flex flex-col">
+        <div class="bg-white p-5 m-5 rounded-xl shadow-lg flex flex-col justify-center text-center items-center h-fit min-w-96">
+            <div class="text-2xl font-InterTight font-semibold text-orange-950 pb-3 flex flex-col">
                 {comm.name}
             </div>
             <div class="flex flex-col gap-4">
                 {#each comm.members as member}
                     <div class="flex flex-col gap-2 items-center mt-3">
-                        <div class="text-lg sm:text-xl text-[#3c6cc4] font-bold text-justify">
+                        <div class="text-lg sm:text-xl text-orange-700 font-bold text-justify">
                             {member.name}
                         </div>
                         {#if member.designation}
-                            <div class="text-sm sm:text-lg text-[#272727] font-light text-justify">
+                            <div class="text-sm sm:text-lg text-black font-light text-justify">
                                 {member.designation}
                             </div>
                         {/if}

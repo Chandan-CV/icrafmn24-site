@@ -56,7 +56,7 @@
 				>
 					{dLeft} Days :{hLeft} Hours :{mLeft} Minutes :{sLeft} Seconds
 					<!-- <p class="text-blue-900 text-3xl">Manipal Institute of Technology, BENGALURU</p> -->
-                    <!-- <div class=" text-2xl font-InterTight font-normal pt-5 text-[#09275E] pb-4">July 12 - 14</div> -->
+                    <!-- <div class=" text-2xl font-InterTight font-normal pt-5 text-orange-950 pb-4">July 12 - 14</div> -->
 				
 				</div>
 			</div>

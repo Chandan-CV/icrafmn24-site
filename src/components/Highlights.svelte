@@ -26,7 +26,8 @@
 	</div>
 	<div class="w-full flex flex-col justify-center items-center py-10">
 		<div class="text-2xl md:text-3xl lg:text-3xl font-semibold text-orange-950 pb-5 flex flex-col text-center mt-10 mb-5">Previous Publications</div>
-		<div class="flex gap-5 flex-wrap  text-center justify-center">
+		<div class="flex gap-5 flex-wrap  text-center justify-center
+		">
 			<a href="https://pubs.aip.org/pof/collection/15930/Recent-Advances-in-Fluid-Mechanics-and" target="_blank" class="bg-orange-950 p-5 text-white rounded-full shadow shadow-orange-600 font-semibold hover:bg-white hover:text-orange-600 transition-colors ease-in-out">Physics of Fluids</a>
 			<a href="https://pubs.aip.org/jap/collection/15930/Recent-Advances-in-Fluid-Mechanics-and" target="_blank" class="bg-orange-950 p-5 text-white rounded-full shadow shadow-orange-600 font-semibold hover:bg-white hover:text-orange-600 transition-colors ease-in-out">Journal of Applied Physics</a>
 		</div>

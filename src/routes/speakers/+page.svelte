@@ -1,103 +1,125 @@
-<script>
-	const plenaryTalk = [
-		{
-			name: 'Dr. Alice Johnson',
-			title: 'Senior Research Scientist, Institute of Science'
-		},
-		{
-			name: 'Prof. John Smith',
-			title: 'Chair of Physics Department, University of XYZ'
-		},
-		{
-			name: 'Dr. Mary White',
-			title: 'CEO, Tech Innovations Inc.'
-		},
-		{
-			name: 'Prof. Richard Brown',
-			title: 'Director, Center for Fluid Dynamics'
-		}
-	];
+<script lang="ts">
+	interface Speaker {
+		name: string;
+		university: string;
+	}
 
-	const keynote = [
-		{
-			name: 'Dr. Emily Davis',
-			title: 'Renowned Physicist and Author'
-		},
-		{
-			name: 'Prof. Robert Green',
-			title: 'Chief Scientist, National Fluid Dynamics Lab'
-		},
-		{
-			name: 'Dr. Sandra Turner',
-			title: 'Innovation Strategist, Global Innovations LLC'
-		},
-		{
-			name: 'Prof. Michael Johnson',
-			title: 'Keynote Speaker, International Physics Conference'
-		}
-	];
+	interface AddressCategory {
+		category: string;
+		speakers: Speaker[];
+	}
 
-	const invited = [
-		{
-			name: 'Dr. Samantha White',
-			title: 'Head of Research, Quantum Dynamics Institute'
-		},
-		{
-			name: 'Prof. Andrew Black',
-			title: 'Guest Lecturer, International Physics Symposium'
-		},
-		{
-			name: 'Dr. Daniel Smith',
-			title: 'Lead Scientist, Advanced Fluid Technologies'
-		},
-		{
-			name: 'Prof. Laura Davis',
-			title: 'Invited Speaker, Global Science Summit'
-		}
-	];
+	interface ConferenceAddresses {
+		categories: AddressCategory[];
+	}
 
-	const industry = [
-		{
-			name: 'Mr. Peter Brown',
-			title: 'CEO, Fluid Innovations Ltd.'
-		},
-		{
-			name: 'Ms. Jennifer White',
-			title: 'Senior Engineer, Tech Dynamics Inc.'
-		},
-		{
-			name: 'Mr. David Turner',
-			title: 'Director of Technology, Innovate Tech Solutions'
-		},
-		{
-			name: 'Ms. Patricia Johnson',
-			title: 'VP of Research and Development, Future Sciences Corp.'
-		}
-	];
+	const conferenceAddresses: ConferenceAddresses = {
+		categories: [
+			{
+				category: 'Keynote Address',
+				speakers: [
+					{
+						name: 'Prof. Suman Chakraborty',
+						university: 'Indian Institute of Technology, Kharagpur'
+					},
+					{
+						name: 'Prof Anuj Mubayi',
+						university: 'Illinois State University, USA'
+					},
+					{
+						name: 'Prof. E. Y. K. Ng',
+						university: 'Nanyang Technological University, Singapore'
+					},
+					{
+						name: 'Prof. O. D. Makinde',
+						university: 'Stellenbosch University, South Africa'
+					},
+					{
+						name: 'Prof. Amit Agrawal',
+						university: 'Indian Institute of Technology, Bombay'
+					},
+					{
+						name: 'Prof. P V S N Murthy',
+						university: 'Indian Institute of Technology, Kharagpur'
+					},
+					{
+						name: 'Prof. Ratish Kumar B V',
+						university: 'Indian Institute of Technology, Kanpur'
+					},
+					{
+						name: 'Prof. Tanmay Basak',
+						university: 'Indian Institute of Technology, Madras'
+					},
+					{
+						name: 'Prof. Prasad Patnaik BSV',
+						university: 'Indian Institute of Technology, Madras'
+					},
+					{
+						name: 'Prof. Rama Bhargava',
+						university: 'Indian Institute of Technology, Roorkee'
+					},
+					{
+						name: 'Prof. P.G. Siddheswar',
+						university: 'Christ University, Bengaluru'
+					}
+				]
+			},
+			{
+				category: 'Invited Address',
+				speakers: [
+					{
+						name: 'Dr. Hafiz Muhammad Ali',
+						university: 'King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia'
+					},
+					{
+						name: 'Dr. Katta Ramesh',
+						university: 'Sunway University, Malaysia'
+					},
+					{
+						name: 'Dr. Rajesh K. Pandey',
+						university: 'Indian Institute of Technology, Varanasi'
+					},
+					{
+						name: 'Dr. R. Sivaraj',
+						university: 'Dr. B. R. Ambedkar National Institute of Technology, Punjab'
+					},
+					{
+						name: 'Dr. Kerehalli Vinayaka Prasad',
+						university: 'VSK University, Ballari'
+					},
+					{
+						name: 'Dr. Hanumesh Vaidya',
+						university: 'VSK University, Ballari'
+					}
+				]
+			}
+		]
+	};
 </script>
 
 <div class="">
 	<div class=" flex flex-col items-center pt-10 px-10">
-		<h1 class="font-InterTight text-3xl font-semibold text-[#09275E] pb-3 animate-pulse">
+		<h1 class="font-InterTight text-3xl font-semibold text-orange-950 pb-3 animate-pulse">
 			The list of Speakers who have given consent to be part of ICRAFMN-2024
 		</h1>
 	</div>
-	<div class="flex flex-row">
-		<div>
-            <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">Keynote Address</h1>
-			<p>
-				Prof. Suman Chakraborty, Indian Institute of Technology, Kharagpur <br />
-				Prof Anuj Mubayi, Illinois State University, USA <br />
-				Prof. E. Y. K. Ng, Nanyang Technological University, Singapore <br />
-				Prof. O. D. Makinde, Stellenbosch University, South Africa <br />
-				Prof. Amit Agrawal, Indian Institute of Technology, Bombay <br />
-				Prof. P V S N Murthy, Indian Institute of Technology, Kharagpur <br />
-				Prof. Ratish Kumar B V, Indian Institute of Technology, Kanpur <br />
-				Prof. Tanmay Basak, Indian Institute of Technology, Madras <br />
-				Prof. Prasad Patnaik BSV, Indian Institute of Technology, Madras <br />
-				Prof. Rama Bhargava, Indian Institute of Technology, Roorkee <br />
-				Prof. P.G. Siddheswar, Christ University, Bengaluru
-			</p>
-		</div>
+	<div class="flex flex-row justify-between text-center flex-wrap mt-20">
+		{#each conferenceAddresses.categories as category}
+			<div>
+				<h1 class="font-InterTight text-2xl font-bold text-orange-950 pb-3 ">
+					{category.category}
+				</h1>
+				{#each category.speakers as speaker}
+					<div class="flex flex-col items-center pt-5 px-10">
+						<h1 class="font-InterTight text-2xl font-bold text-orange-800 pb-1 ">
+							{speaker.name}
+						</h1>
+						<h1 class="font-InterTight text-xl font-light text-black pb-3 ">
+							{speaker.university}
+						</h1>
+					</div>
+				{/each}
+			</div>
+		{/each}
 	</div>
 </div>

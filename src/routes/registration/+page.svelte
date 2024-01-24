@@ -23,8 +23,8 @@
           <td>INR 8000/-*</td>
         </tr>
         <tr>
-          <td>Other</td>
-          <td colspan="4">USD 20/-*</td>
+          <td>International</td>
+          <td colspan="4">USD 100/-*</td>
         </tr>
       </table>
       <div class="py-5 flex flex-col gap-3 text-justify">

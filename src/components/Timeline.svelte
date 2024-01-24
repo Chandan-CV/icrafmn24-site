@@ -1,9 +1,9 @@
 <script>
     // Timeline items data
     let timelineItems = [
-      { title: 'Abstract Submission', date: 'March 31, 2024' },
-      { title: 'Registration fee deadline', date: 'April 15, 2024' },
-      { title: 'Final Paper Submission', date: 'April 30, 2024' },
+      { title: 'Abstract Submission', date: 'April 15, 2024' },
+      { title: 'Registration fee deadline', date: 'April 30, 2024' },
+      { title: 'Final Paper Submission', date: 'May 15, 2024' },
       { title: 'Conference Begins', date: 'July 10, 2024' },
       { title: 'Conference concludes', date: 'July 12, 2024' },
     ];

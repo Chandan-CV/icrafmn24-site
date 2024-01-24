@@ -1,5 +1,5 @@
 <div class="bg-orange-600 px-5 py-5 justify-center flex flex-col items-center min-w-screen bottom-0">
-    <h1 class="text-white text-xl font-InterTight font-semibold">ICRAFMN-24</h1>
+    <h1 class="text-white text-xl font-InterTight font-semibold">ICRAFMN-2024</h1>
     <h1 class="text-stone-300 font-InterTight">MAHE Bengaluru</h1>
     
 </div>

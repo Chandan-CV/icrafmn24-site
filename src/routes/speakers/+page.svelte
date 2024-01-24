@@ -97,15 +97,15 @@
 	};
 </script>
 
-<div class="">
+<div class="text-center">
 	<div class=" flex flex-col items-center pt-10 px-10">
 		<h1 class="font-InterTight text-3xl font-semibold text-orange-950 pb-3 animate-pulse">
 			The list of Speakers who have given consent to be part of ICRAFMN-2024
 		</h1>
 	</div>
-	<div class="flex flex-row justify-between text-center flex-wrap mt-20">
+	<div class="flex flex-row justify-between text-center flex-wrap mt-10">
 		{#each conferenceAddresses.categories as category}
-			<div>
+			<div class="m-10">
 				<h1 class="font-InterTight text-2xl font-bold text-orange-950 pb-3 ">
 					{category.category}
 				</h1>
@@ -121,5 +121,10 @@
 				{/each}
 			</div>
 		{/each}
+	</div>
+	<div class=" flex flex-col items-center pt-10 px-10">
+		<h1 class="font-InterTight text-3xl font-semibold text-orange-950 pb-3 animate-pulse">
+			The list will be updated as and when the speakers give their consent to be a part of ICRAFMN-2024. 
+		</h1>
 	</div>
 </div>

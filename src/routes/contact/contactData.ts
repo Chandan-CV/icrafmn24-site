@@ -20,7 +20,7 @@ interface ContactPerson {
       name: "Dr. Rajashekhar V. Choudhari",
       designation: "Dept. of Mathematics",
       organization: "MIT, Bengaluru",
-      role: "Convener, ICRAFMN-2023",
+      role: "Convener, ICRAFMN-2024",
       email: "rv.choudhari@manipal.edu",
       phone: "+(91) 8123158384"
     },
@@ -28,7 +28,7 @@ interface ContactPerson {
       name: "Dr. Dharmendra Tripathi",
       designation: "Dept. of Mathematics",
       organization: "NIT Uttarakhand",
-      role: "Chairperson, ICRAFMN-2023",
+      role: "Chairperson, ICRAFMN-2024",
       email: "dtripathi@nituk.ac.in",
       phone: "+(91) 8385882005"
     },
@@ -40,21 +40,21 @@ interface ContactPerson {
       email: "alok.bhargava@jaipur.manipal.edu",
       phone: "+(91) 9414073300"
     },
-    {
-      name: "Dr. Jagriti Sahariya",
-      designation: "Department of Physics",
-      organization: "NIT, Uttarakhand",
-      role: "Co-Convenor, ICRAFMN-2024",
-      email: "jagrati@nituk.ac.in"
-    },
-    {
-      name: "Dr. Manjunatha M S",
-      designation: "Department of Mechanical and Industrial Engineering",
-      organization: "MIT, Bengaluru",
-      role: "Co-Convenor, ICRAFMN-2024",
-      email: "manjunath.ms@manipal.edu",
-      phone: "+(91) 9483426391"
-    }
+    // {
+    //   name: "Dr. Jagriti Sahariya",
+    //   designation: "Department of Physics",
+    //   organization: "NIT, Uttarakhand",
+    //   role: "Co-Convenor, ICRAFMN-2024",
+    //   email: "jagrati@nituk.ac.in"
+    // },
+    // {
+    //   name: "Dr. Manjunatha M S",
+    //   designation: "Department of Mechanical and Industrial Engineering",
+    //   organization: "MIT, Bengaluru",
+    //   role: "Co-Convenor, ICRAFMN-2024",
+    //   email: "manjunath.ms@manipal.edu",
+    //   phone: "+(91) 9483426391"
+    // }
   ];
   
   export default contacts;

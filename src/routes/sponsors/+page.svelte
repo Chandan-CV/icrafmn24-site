@@ -1,13 +1,13 @@
 <div class="flex items-center flex-col px-8">
-    <h1 class="font-InterTight text-3xl font-semibold text-[#09275E]">ICRAFMN-24 Sponsor Options</h1>
+    <h1 class="font-InterTight text-3xl text-center font-semibold text-[#09275E]">ICRAFMN-24 Sponsor Options</h1>
     <div class="py-10 flex flex-col">
-        <div class="flex flex-col text-black font-intertight text-lg text-center gap-3">
+        <div class="flex flex-col text-black font-intertight lg:text-lg text-center gap-3">
             <p>We are pleased to offer you a variety of sponsorship opportunities that will assist you in achieving your business goals.</p>
             <p>Sponsoring ICRAFMN 2024 offers a unique opportunity for a company or organization to increase its visibility and product awareness within a highly specialized, influential community.</p>
             <p>Sponsor acknowledgments, including the company's name, product, and logo, will appear on the conference's main page and in all official conference documentation.</p>
         </div>
         <div class="py-10 flex gap-3 flex-col">
-            <h1 class="font-InterTight text-3xl font-semibold text-stone-800 text-center shadow-lg shadow-blue-600/20 from-[#8fd4ff] px-3 py-3 rounded-full bg-gradient-to-l to-[#b0e8ef]">Platinum Sponsorship [INR 1,50,000 / USD 2000]</h1>
+            <h1 class="font-InterTight lg:text-3xl font-semibold text-stone-800 text-center shadow-lg shadow-blue-600/20 from-[#8fd4ff] px-3 py-3 rounded-full bg-gradient-to-l to-[#b0e8ef]">Platinum Sponsorship [INR 1,50,000 / USD 2000]</h1>
             <p class="text-black font-intertight text-lg text-center">The platinum conference sponsorship package combines marketing and branding association before the event and maximum exposure during the conference.<span class="font-bold">Only Three Platinum Sponsorship</span> will be made available for a particular conference.</p>
             <table class="text-left">
                 <thead>
@@ -49,7 +49,7 @@
             </table>
         </div>
         <div class="py-10 flex gap-3 flex-col">
-            <h1 class="font-InterTight text-3xl font-semibold text-black text-center from-[#ffce08] px-3 py-3 rounded-full bg-gradient-to-l to-[#fff67f]">Gold Sponsorship [INR 1,00,000 / USD 1250]</h1>
+            <h1 class="font-InterTight lg:text-3xl font-semibold text-black text-center from-[#ffce08] px-3 py-3 rounded-full bg-gradient-to-l to-[#fff67f]">Gold Sponsorship [INR 1,00,000 / USD 1250]</h1>
             <p class="text-black font-intertight text-lg text-center">A gold conference sponsorship package combines marketing and branding association before the event and extensive exposure during the conference. Six gold sponsorship packages are available for a particular conference.</p>
             <table class="text-left">
                 <thead>
@@ -91,7 +91,7 @@
             </table>
         </div>
         <div class="py-10 flex gap-3 flex-col">
-            <h1 class="font-InterTight text-3xl font-semibold text-white text-center from-[#b8b8b8] px-3 py-3 rounded-full bg-gradient-to-l to-[#808080]">Silver Sponsorship [INR 50,000 / USD 750]</h1>
+            <h1 class="font-InterTight lg:text-3xl font-semibold text-white text-center from-[#b8b8b8] px-3 py-3 rounded-full bg-gradient-to-l to-[#808080]">Silver Sponsorship [INR 50,000 / USD 750]</h1>
             <p class="text-black font-intertight text-lg text-center">A silver conference sponsorship package combines marketing and branding association before the event and exposure during the conference. 10 silver sponsorship packages are available for a particular conference.</p>
             <table class="text-left">
                 <thead>
@@ -133,7 +133,7 @@
             </table>
         </div>
         <div class="py-10 flex gap-3 flex-col">
-            <h1 class="font-InterTight text-3xl font-semibold text-white text-center from-[#000000] px-3 py-3 rounded-full bg-gradient-to-l to-orange-950">Sponsorship for young researcher award [INR 20,000 / USD 250]</h1>
+            <h1 class="font-InterTight lg:text-3xl font-semibold text-white text-center from-[#000000] px-3 py-3 rounded-full bg-gradient-to-l to-orange-950">Sponsorship for young researcher award [INR 20,000 / USD 250]</h1>
             <p class="text-black font-intertight text-lg text-center">Four awards will be presented during the Conference to researchers under the age of 35 who demonstrate excellent scientific work. The researcher should complete the work independently of any co-author(s). The author of the winning paper must personally present the work during the conference's award session.</p>
             <h2 class="text-black font-bold">Four sponsorships for young researcher award are available</h2>
             <ul class="flex flex-col text-2xl">
@@ -201,9 +201,18 @@
     table, th, td {
         border: 1px solid;
         padding : 10px;
+        font-size: 10px;
     }
+    @media screen and (min-width: 768px) {
+    table, th, td {
+        font-size: 20px; /* Increase the font size for larger screens */
+    }
+    li{
+        font-size: 20px;
+    }
+}
     li {
-    font-size: 18px;
+    font-size: 10px;
     margin-left: 10px;
     list-style-type: disc; /* or list-style-type: square; */
 }

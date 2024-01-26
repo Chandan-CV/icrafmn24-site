@@ -8,6 +8,10 @@ export default {
 			},
 			animation:{
 				'spin-slow':'spin 8s linear infinite'
+			},
+			backgroundImage:{
+				'hero-pattern':'url("lib/images/MUJBG.jpeg")'
+		
 			}
 		}
 	},

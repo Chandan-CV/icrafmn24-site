@@ -3,9 +3,10 @@
 	import Footer from "../components/Footer.svelte";
 	import Header from "../components/Header.svelte";
 	import Navbar from "../components/Navbar.svelte";
+  import MUJBG from "../lib/images/MUJBG.jpeg";
   </script>
   
-  <body class="from-[#ffd796] to-[#ffaa5f] bg-gradient-to-b overflow-x-hidden h-screen">
+  <body class="bg-orange-300 bg-blend-overlay overflow-x-hidden h-screen  bg-hero-pattern bg-cover">
     <Header/>
     <Navbar/>
     <div class="min-h-screen">

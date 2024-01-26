@@ -54,10 +54,10 @@
 </style>
 
 <div>
-  <div class="font-InterTight text-base font-semibold sm:text-xl mb-10 text-center items-center flex gap-3 bg-orange-200 p-5 rounded-full">
-    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.days}</span> days{" "}
-    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.hours}</span> hours{" "}
-    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.minutes}</span> minutes{" "}
-    <span class="number-thingy md:text-4xl lg:text-4xl text-2xl">{countdown.seconds}</span> seconds
+  <div class="font-InterTight text-sm font-semibold mb-10 text-center items-center flex gap-2 bg-orange-200 p-5 rounded-full">
+    <span class="number-thingy md:text-4xl lg:text-4xl text-xl">{countdown.days}</span> days{" "}
+    <span class="number-thingy md:text-4xl lg:text-4xl text-xl">{countdown.hours}</span> hours{" "}
+    <span class="number-thingy md:text-4xl lg:text-4xl text-xl">{countdown.minutes}</span> minutes{" "}
+    <span class="number-thingy md:text-4xl lg:text-4xl text-xl">{countdown.seconds}</span> seconds
   </div>
 </div>

@@ -39,7 +39,7 @@
 			>
 		</nav>
 		<div
-			class="lg:hidden flex gap-3 xl:hidden rounded-xl w-full transition-all ease-in-out text-orange-200 font-bold items-center justify-center"
+			class="lg:hidden flex gap-3 xl:hidden rounded-xl transition-all ease-in-out text-orange-200 font-bold items-center justify-center"
 		>
 			{#if !showMenu}
 				<button
@@ -75,77 +75,77 @@
 						<h1>Close</h1>
 					</button>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="/">Home</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="about">About</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="speakers">Speakers</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="committees">Committees</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="submission">Submission</a
 					>
 					<a
-					class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+					class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 					on:click={() => {
 						showMenu = false;
 					}}
 					href="publications">Publications</a
 				>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="registration">Registration</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="awards">Awards</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="sponsors">Sponsors</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
 						href="contact">Contact Us</a
 					>
 					<a
-						class="hamburger w-full text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
+						class="hamburger text-center rounded-xl p-1 font-semibold font-InterTight text-orange-100 px-5"
 						on:click={() => {
 							showMenu = false;
 						}}
@@ -174,7 +174,7 @@
 
 <style>
 	.hamburger {
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.hamburger:hover {
 		color: white;

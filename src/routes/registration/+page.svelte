@@ -34,7 +34,7 @@
             <p class="font-semibold">
                 Accommodation will be provided in MUJ hostels (against payment) based on the availability. Further, there is also a provision for accompanying person and for more details regarding accommodation please feel free to contact Dr. Mohd. Rizwanullah | Dr. Virendra Singh Chouhan | Dr. Sandeep Kumar.
             </p>
-            <p class="font-semibold text-red-600">
+            <p class="font-semibold text-red-600 bg-red-200 p-3 rounded-xl">
                 The registration is complete only after the successful payment of the registration fees. For participants from abroad, an invoice will be generated in your name and will be sent to you along with MAHE bank account details to complete the registration process. Please write to us at alok.bhargava@jaipur.manipal.edu for the invoice with your details.
             </p>
         <p class="text-lg font-bold">Only international participants can choose to present in a hybrid mode. But we'd like to meet people from other countries in person.</p>

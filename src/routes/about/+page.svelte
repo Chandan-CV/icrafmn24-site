@@ -43,7 +43,7 @@
 				</svg>
 				<h1 class="text-orange-950 font-InterTight font-semibold text-2xl">{college.name}</h1>
 				{#each college.description.split('\n') as line}
-            <p class="text-stone-800 text-justify font-InterTight text-lg">{line}</p>
+            <p class="text-stone-800 font-InterTight text-lg text-center">{line}</p>
         {/each}
         </div>
 		{/each}

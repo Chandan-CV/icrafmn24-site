@@ -1,38 +1,10 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## ICRAFMN-2024
+<img src="https://www.manipal.edu/content/dam/manipal/mu/mcops-manipal/Images_new/mahe-header-color-final.png.transform/manipal-edu-transform-width-height-305px/image.png" height=50></img> <img src="https://www.icrafmn2024.com/_app/immutable/assets/WhatsApp_Image_2024-01-13_at_13.41.10-removebg-preview.mytc5i1U.png" height=50></img>
 
-## Creating a project
+This is the official website for the 2nd International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics hosted by **Manipal University Jaipur** in association with **Manipal Institute of Technology, Bengaluru** and **National Institute of Technology Uttarakhand**.
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+The entire project was built in Svelte by <a href="https://github.com/Chandan-CV">Chandan</a> and <a href="https://github.com/scenario7">Kevin</a>.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00"></img>

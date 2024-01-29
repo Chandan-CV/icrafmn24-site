@@ -103,9 +103,9 @@
 			The list of Speakers who have given consent to be part of ICRAFMN-2024
 		</h1>
 	</div>
-	<div class="flex flex-row justify-between text-center flex-wrap mt-10">
+	<div class="flex flex-row justify-evenly text-center flex-wrap mt-10">
 		{#each conferenceAddresses.categories as category}
-			<div class="m-10">
+			<div class="m-10 sm:w-1/3">
 				<h1 class="font-InterTight text-2xl font-bold text-orange-950 pb-3 ">
 					{category.category}
 				</h1>

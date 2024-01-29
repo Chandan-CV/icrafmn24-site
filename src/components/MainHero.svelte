@@ -45,8 +45,12 @@
 	<div class="mt-20 w-full flex flex-col justify-center items-center">
 		<Countdown/>
 	</div>
-	<div class="flex flex-row p-5">
-		<div class="flex flex-col justify-center">
+	<div class="w-full flex justify-center items-center">
+
+		<div class=" bg-orange-700 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-20 w-fit "> <a href="https://drive.google.com/file/d/1GhtzG5NwG4DtZkqSg7bBBgeFBwRIMJ8z/view?usp=drive_link">View Brochure</a></div>
+	</div>
+		<div class="flex flex-row p-5">
+		<div class="flex flex-col justify-center">	
 			<p class=" text-2xl md:text-3xl lg:text-3xl font-semibold text-[#09275E] pb-3 flex flex-col">
 				About Conference
 			</p>

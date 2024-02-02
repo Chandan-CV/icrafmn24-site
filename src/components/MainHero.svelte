@@ -47,7 +47,7 @@
 	</div>
 	<div class="w-full flex justify-center items-center">
 
-		<div class=" bg-orange-700 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-20 w-fit "> <a href="https://drive.google.com/file/d/1GhtzG5NwG4DtZkqSg7bBBgeFBwRIMJ8z/view?usp=drive_link">View Brochure</a></div>
+		<div class=" bg-orange-700 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-20 w-fit "> <a href="https://drive.google.com/file/d/18z8mtzzeymi3GCigGdN_kWNEFYzSk7ZJ/view?usp=sharing">View Brochure</a></div>
 	</div>
 		<div class="flex flex-row p-5">
 		<div class="flex flex-col justify-center">	

@@ -353,27 +353,39 @@ interface ConferenceData {
 
 </script>
 
-
-<div class=" flex flex-row flex-wrap justify-center ">
-    {#each data.committees as comm}
-        <div class="bg-white p-5 m-5 rounded-xl shadow-lg flex flex-col justify-center text-center items-center h-fit min-w-96">
-            <div class="text-2xl font-InterTight font-semibold text-orange-950 pb-3 flex flex-col">
-                {comm.name}
-            </div>
-            <div class="flex flex-col gap-4">
-                {#each comm.members as member}
-                    <div class="flex flex-col gap-2 items-center mt-3">
-                        <div class="text-lg sm:text-xl text-orange-700 font-bold text-justify">
-                            {member.name}
-                        </div>
-                        {#if member.designation}
-                            <div class="text-sm sm:text-lg text-black font-light text-justify">
-                                {member.designation}
-                            </div>
-                        {/if}
-                    </div>
-                {/each}
-            </div>
-        </div>
-    {/each}
+<div class="justfy-center items-center flex flex-col px-20 py-10">
+{#each data.committees as committee (committee.name)}
+  <h2 class="text-center font-bold text-2xl lg:text-4xl underline font-serif text-orange-900 py-8">{committee.name}</h2>
+  <table class="w-full text-orange-950">
+    <tbody>
+      {#if (committee.members.length >= 4)}
+      {#each committee.members as member (member.name)}
+        <tr class="">
+          <div class="text-center flex flex-col py-3">
+            <h1 class="font-semibold text-xl lg:text-2xl">{member.name}</h1>
+            <h1 class="italic font-serif text-lg lg:text-xl">{member.designation ?? 'N/A'}</h1>
+          </div>
+        </tr>
+        
+      {/each}
+      {:else}
+      {#each committee.members as member (member.name)}
+        <tr class="">
+          <div class="text-center flex flex-col py-3">
+            <h1 class="font-semibold text-xl lg:text-2xl">{member.name}</h1>
+            <h1 class="italic font-serif text-lg lg:text-xl">{member.designation ?? 'N/A'}</h1>
+          </div>
+        </tr>
+      {/each}
+      {/if}
+    </tbody>
+  </table>
+{/each}
 </div>
+
+<style>
+  table, th, td, tr {
+    border : 1px solid;
+    width: 100%;
+  }
+</style>

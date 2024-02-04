@@ -356,12 +356,12 @@ interface ConferenceData {
 <div class="justfy-center items-center flex flex-col px-20 py-10">
 {#each data.committees as committee (committee.name)}
   <h2 class="text-center font-bold text-2xl lg:text-4xl underline font-serif text-orange-900 py-8">{committee.name}</h2>
-  <table class="w-full">
+  <table class="w-full text-orange-950">
     <tbody>
       {#if (committee.members.length >= 4)}
       {#each committee.members as member (member.name)}
         <tr class="">
-          <div class="text-center flex flex-col">
+          <div class="text-center flex flex-col py-3">
             <h1 class="font-semibold text-xl lg:text-2xl">{member.name}</h1>
             <h1 class="italic font-serif text-lg lg:text-xl">{member.designation ?? 'N/A'}</h1>
           </div>
@@ -371,7 +371,7 @@ interface ConferenceData {
       {:else}
       {#each committee.members as member (member.name)}
         <tr class="">
-          <div class="text-center flex flex-col">
+          <div class="text-center flex flex-col py-3">
             <h1 class="font-semibold text-xl lg:text-2xl">{member.name}</h1>
             <h1 class="italic font-serif text-lg lg:text-xl">{member.designation ?? 'N/A'}</h1>
           </div>

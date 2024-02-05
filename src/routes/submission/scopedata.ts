@@ -15,7 +15,7 @@ interface SubCategory {
   const conferenceTopics: ConferenceTopics = {
     categories: [
       {
-        name: "Mathematics",
+        name: "Mathematical Sciences",
         subcategories: [
           { name: "Mathematical Modelling" },
           { name: "Boundary Layer Flow" },

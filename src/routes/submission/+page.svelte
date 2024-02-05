@@ -6,13 +6,16 @@
 	<h1 class="font-InterTight text-3xl font-semibold text-orange-950">Scope of Conference</h1>
 	<div class="flex flex-row flex-wrap mb-10">
 		{#each conferenceTopics.categories as topic}
-			<div class="p-5 flex flex-col bg-white m-5 rounded-xl bg-opacity-70 shadow-2xl">
+			<div class="p-5 flex flex-col  m-5 rounded-xl ">
 				<ul class="text-2xl font-normal text-center mb-5">{topic.name}</ul>
 				{#each topic.subcategories as subtopic}
 					<li>{subtopic.name}</li>
 				{/each}
 			</div>
 		{/each}
+	</div>
+	<div class="text-2xl text-center font-semibold m-5 animate-pulse text-orange-900">
+		<strong>Note:</strong> The scope of the conference is not limited to the above topics; any topics related to discrete mathematics and combinatorics are welcome for submission.
 	</div>
 	<h1 class="font-InterTight text-3xl font-semibold text-orange-950">
 		Paper and Abstract Submission

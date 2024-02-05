@@ -131,7 +131,7 @@ interface ConferenceData {
     name: "Organizing Secretaries",
     members: [
       {
-        name: "Dr. Aditya G S S",
+        name: "Dr. Adithya G S S",
         designation: "Department of Mechanical and Industrial Engineering, MIT, Bengaluru"
       },
       {
@@ -194,6 +194,10 @@ interface ConferenceData {
       {
         name: "Dr. Anil Ahlawat",
         designation: "Department of Mathematics and Statistics, MUJ, Jaipur"
+      },
+      {
+        name:"Dr. Dhirendra Bahadur Singh",
+        designation:"Department of Mathematics, NIT, Uttarakhand"
       }
     ]
   },

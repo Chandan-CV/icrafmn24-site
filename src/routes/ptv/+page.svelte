@@ -2,7 +2,7 @@
     const places = [
     {
         name : "Amber Fort",
-        description : "Amer Fort or Amber Fort is a fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres (1.5 sq mi) located 11 kilometres (6.8 mi) from Jaipur, the capital of Rajasthan. Located high on a hill, it is the principal tourist attraction in Jaipur.",
+        description : "Amer Fort or Amber Fort is a fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres (1.5 sq mi) located 11 kilometres (6.8 mi) from Jaipur, the capital of Rajasthan. Located high on a hill, it is the principal tourist attraction in Jaipur. Amer Fort is known for its artistic style elements. With its large ramparts and series of gates and cobbled paths, the fort overlooks Maota Lake, which is the main source of water for the Amer Palace.",
         image : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=1200&h=1200&s=1",
         link : "https://www.tourism.rajasthan.gov.in/amber-palace.html"
     },
@@ -29,6 +29,36 @@
         description : "Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking the city of Jaipur in the Indian state of Rajasthan. Along with Amer Fort and Jaigarh Fort, Nahargarh once formed a strong defence ring for the city. The fort was originally named Sudershangarh, but it became known as Nahargarh, which means 'abode of tigers'. ",
         image : "https://img.veenaworld.com/wp-content/uploads/2021/09/Rajasthan-scaled.jpg",
         link : "https://www.tourism.rajasthan.gov.in/nahargarh-fort.html"
+    },
+    {
+        name : "City Palace",
+        description : "The City Palace, Jaipur is a royal residence and former administrative headquarters of the rulers of the Jaipur State in Jaipur, Rajasthan. Construction started soon after the establishment of the city of Jaipur under the reign of Maharaja Sawai Jai Singh II, who moved his court to Jaipur from Amber, in 1727. Jaipur remained the capital of the kingdom until 1949-when it became the capital of the present-day Indian state of Rajasthan-with the City Palace functioning as the ceremonial and administrative seat of the Maharaja of Jaipur.",
+        image : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/96/8a/82/this-is-the-time-when.jpg?w=1200&h=1200&s=1",
+        link : "https://www.tourism.rajasthan.gov.in/city-palace.html"
+    },
+    {
+        name : "Jaigarh Fort",
+        description : "Jaigarh Fort is situated on the promontory called the Cheel ka Teela (Hill of Eagles) of the Aravalli range; it overlooks the Amer Fort and the Maota Lake, near Amer in Jaipur, Rajasthan, India. The fort was built by Mirza Raja Jai Singh in 1726 to protect the Amer Fort and its palace complex and was named after him.",
+        image : "https://static.toiimg.com/thumb/65755679/jaigarh-fort.jpg?width=1200&height=900",
+        link : "https://www.tourmyindia.com/states/rajasthan/jaigarh-fort.html"
+    },
+    {
+        name : "Albert Hall Museum",
+        description : "The Albert Hall Museum in Jaipur is the oldest museum of the state and functions as the state museum of Rajasthan, India. The building is situated in Ram Niwas garden outside the city wall opposite New gate and is a fine example of Indo-Saracenic architecture. It is also called the Government Central Museum. It was considered one of the best 19th century museums for the variety of its collections. It was renovated in 2008 and reopened as one of the most advanced museums in India.",
+        image : "https://jaipurtourism.co.in/images/places-to-visit/header/albert-hall-museum-jaipur-entry-fee-timings-holidays-reviews-header.jpg",
+        link : "https://jaipurtourism.co.in/albert-hall-museum-jaipur"
+    },
+    {
+        name : "Galta Ji (Monkey Temple)",
+        description : "Situated at about a distance of 10km from Jaipur in the city of Khania-Balaji, the Galtaji temple is a Hindu pilgrimage often visited by the people from all over the country. There are many temples in this site and one the special attractions of the place is a natural spring that flows downwards from the hill top. The water from this spring fills up many kunds or water tanks which are considered very sacred and the pilgrims visiting the temple take bathe in this pious water. The temple comprises of 7 holy water tanks or kunds out of which the Galta Kund is the most significant of all. The water of this kind is believed to be different from anywhere else which makes it even more fascinating for the visitors to watch.",
+        image : "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1031572588_20200219165610_20200219165630.jpg",
+        link : "https://www.tourmyindia.com/states/rajasthan/monkey-temple-jaipur.html"
+    },
+    {
+        name : "Sisodia Rani Garden",
+        description : "Sisodia Rani Garden and Palace is a palace garden 6 kilometres (3.7 mi) from Jaipur city in of Rajasthan state in India. It was built by Maharaja Sawai Jai Singh II in 1728. The place consists of tiered multi-level gardens with fountains, watercourses and painted pavilions. A double-storeyed palace occupies the top terrace of the garden. The palace has many galleries, pavilions and murals depicting scenes from the life of lord Krishna. The palace lies on Jaipur Agara highway.",
+        image : "https://www.tourmyindia.com/images/sisodia-rani-palace-garden2.jpg",
+        link : "https://jaipurtourism.co.in/sisodia-rani-ka-bagh-jaipur"
     },
     ]
 </script>
@@ -57,7 +87,7 @@
         {#each places as place}
         <div class="ptv-img w-full rounded-xl h-96 relative overflow-hidden flex items-center justify-center text-white text-4xl lg:text-6xl font-bold font-InterTight" style="background-image: url('{place.image}'); background-position: center; background-size: cover;">
             <div class="dark-overlay"></div>
-            <div class="absolute w-full h-full flex items-center justify-center">
+            <div class="absolute w-full h-full flex items-center justify-center text-center">
                 {place.name}
             </div>
         </div>

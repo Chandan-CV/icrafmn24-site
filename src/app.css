@@ -5,3 +5,7 @@
 html {
     background-color: black;
 }
+
+::selection {
+    background: rgb(255, 196, 87);
+  }

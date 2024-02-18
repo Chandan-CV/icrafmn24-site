@@ -15,8 +15,8 @@ interface ConferenceAddresses {
 // Example instantiation
 const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Suman Chakraborty', affiliation: 'Indian Institute of Technology, Kharagpur' },
-	{name:"Prof. Huihe Qiu", affiliation:"Hong Kong University of Science and Technology, China"},
-	{name:"Prof. S M Mallikarjunaiah", affiliation:"Texas A&M University-Corpus Christi, USA"},
+	{ name: 'Prof. Huihe Qiu', affiliation: 'Hong Kong University of Science and Technology, China' },
+	{ name: 'Prof. S M Mallikarjunaiah', affiliation: 'Texas A&M University-Corpus Christi, USA' },
 	{ name: 'Prof. Robert J. Poole', affiliation: 'University of Liverpool, UK' },
 	{ name: 'Prof Anuj Mubayi', affiliation: 'Illinois State University, USA' },
 	{ name: 'Prof. E. Y. K. Ng', affiliation: 'Nanyang Technological University, Singapore' },
@@ -24,13 +24,22 @@ const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Bruno Carpentieri', affiliation: 'The Free University of Bozen-Bolzano, Italy' },
 	{ name: 'Prof. O. D. Makinde', affiliation: 'Stellenbosch University, South Africa' },
 	{ name: 'Prof. Padmanabhan Seshaiyer', affiliation: 'George Mason University, USA' },
+
+	{ name: 'Prof. Jitesh  S B Gajjar', affiliation: 'University of Manchester, UK' },
+	{ name: 'Prof. Ashwin Vaidya', affiliation: 'Montclair State University, USA' },
+	{
+		name: 'Dr. Imre Miklós Szilágyi',
+		affiliation: 'Budapest University of Technology and Economics, Budapest'
+	},
+	{ name: 'Prof. Gibin Powathil', affiliation: 'Swansea University, UK' },
 	{ name: 'Prof. Amit Agrawal', affiliation: 'Indian Institute of Technology, Bombay' },
 	{ name: 'Prof. G P Raja Sekhar', affiliation: 'Indian Institute of Technology, Kharagpur' },
 	{ name: 'Prof. P V S N Murthy', affiliation: 'Indian Institute of Technology, Kharagpur' },
 	{ name: 'Prof. Ratish Kumar B V', affiliation: 'Indian Institute of Technology, Kanpur' },
 	{ name: 'Prof. Tanmay Basak', affiliation: 'Indian Institute of Technology, Madras' },
 	{ name: 'Prof. Prasad Patnaik BSV', affiliation: 'Indian Institute of Technology, Madras' },
-	{name:"Prof. Tamal Banerjee", affiliation:"Indian Institute of Technology, Guwahati"},
+	{ name: 'Prof. Tamal Banerjee', affiliation: 'Indian Institute of Technology, Guwahati' },
+	{ name: 'Prof. Swaroop Nandan Bora', affiliation: 'Indian Institute of Technology, Guwahati' },
 	{ name: 'Prof. Rama Bhargava', affiliation: 'Indian Institute of Technology, Roorkee' },
 	{ name: 'Prof. P.G. Siddheswar', affiliation: 'Christ University, Bengaluru' },
 	{ name: 'Dr. Manoranjan Mishra', affiliation: 'Indian Institute of Technology, Ropar' }
@@ -41,7 +50,7 @@ const invitedSpeakers: Speaker[] = [
 	// 	name: 'Dr. Hafiz Muhammad Ali',
 	// 	affiliation: 'King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia'
 	// },
-	{name:"Mr. Advaith Gupta", affiliation:"CEO and Founder, Paanduv Applications, Bareilly"},
+	{ name: 'Mr. Advaith Gupta', affiliation: 'CEO and Founder, Paanduv Applications, Bareilly' },
 	{ name: 'Dr. Katta Ramesh', affiliation: 'Sunway University, Malaysia' },
 	{ name: 'Dr. Rajesh K. Pandey', affiliation: 'Indian Institute of Technology, Varanasi' },
 	{
@@ -61,13 +70,17 @@ const invitedSpeakers: Speaker[] = [
 		name: 'Prof. Sachin Shaw',
 		affiliation: 'Botswana International University of Science and Technology, Botswana'
 	},
-	{ name: 'Dr. Vivekanand', affiliation: 'MNIT Jaipur' }
+	{ name: 'Dr. Vivekanand', affiliation: 'MNIT Jaipur' },
+	{ name: 'Dr. P Nagarani', affiliation: 'University of West Indies, Jamaica' },
+	{
+		name: 'Dr. E. P. Shiva',
+		affiliation: 'SRM Institute of Science and Technology, Kattankulathur'
+	}
 ];
 
 export const planerySpeakers: Speaker[] = [
 	{ name: 'Prof. Ganapati D. Yadav', affiliation: 'Institute of Chemical Technology, Mumbai' },
-	{name:"Prof. S Sundar", affiliation:"Director, NIT Mizoram and Chair Professor, IIT Madras"},
-	
+	{ name: 'Prof. S Sundar', affiliation: 'Director, NIT Mizoram and Chair Professor, IIT Madras' }
 ];
 
 const conferenceAddresses: ConferenceAddresses = {

@@ -2,7 +2,7 @@
 	var showMenu = false;
 </script>
 
-<header class="py-5 body-font">
+<header class="py-5 body-font mx-10">
 	<div
 		class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center bg-orange-600 font-InterTight text-white font-semibold rounded-xl"
 	>

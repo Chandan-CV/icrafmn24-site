@@ -6,7 +6,7 @@
   import MUJBG from "../lib/images/MUJBG.jpeg";
   </script>
   
-  <body class="bg-orange-300 bg-blend-overlay overflow-x-hidden h-screen  bg-hero-pattern bg-cover">
+  <body class="bg-orange-300 bg-blend-overlay overflow-x-hidden h-screen  bg-hero-pattern bg-cover bg-center">
     <Header/>
     <Navbar/>
     <div class="min-h-screen">

@@ -281,7 +281,7 @@ interface ConferenceData {
       },
       {
         name: 'Dr. Ravi Kumar Sharma',
-        designation:"Department of Mechanical Engineering, MUJ, Jairpur"
+        designation:"Department of Mechanical Engineering, MUJ, Jaipur"
       },
       {
         name: "Dr. Rajendra Prasad",

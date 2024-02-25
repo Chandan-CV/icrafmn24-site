@@ -2,7 +2,7 @@
     <h1 class="font-InterTight text-3xl font-semibold text-orange-950">Contact</h1>
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-stretch justify-center text-center gap-5 py-10">
         {#each contacts as {name, designation, organization, role, email, phone}}
-            <div class="bg-white px-5 py-5 rounded-xl items-center justify-center flex flex-col shadow-2xl">
+            <div class="  px-5 py-5 rounded-xl items-center justify-center flex flex-col ">
                 <h1 class="text-orange-700 font-InterTight text-xl lg:text-2xl font-bold">{name}</h1>
                 <h1 class="text-black lg:text-lg font-InterTight">{designation}</h1>
                 <h1 class="text-black lg:text-lg font-semibold font-InterTight">{organization}</h1>

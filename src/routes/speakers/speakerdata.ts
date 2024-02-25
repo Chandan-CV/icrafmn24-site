@@ -28,7 +28,7 @@ const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Jitesh  S B Gajjar', affiliation: 'University of Manchester, UK' },
 	{ name: 'Prof. Ashwin Vaidya', affiliation: 'Montclair State University, USA' },
 	{
-		name: 'Dr. Imre Miklós Szilágyi',
+		name: 'Prof. Imre Miklós Szilágyi',
 		affiliation: 'Budapest University of Technology and Economics, Budapest'
 	},
 	{ name: 'Prof. Gibin Powathil', affiliation: 'Swansea University, UK' },
@@ -42,7 +42,37 @@ const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Swaroop Nandan Bora', affiliation: 'Indian Institute of Technology, Guwahati' },
 	{ name: 'Prof. Rama Bhargava', affiliation: 'Indian Institute of Technology, Roorkee' },
 	{ name: 'Prof. P.G. Siddheswar', affiliation: 'Christ University, Bengaluru' },
-	{ name: 'Dr. Manoranjan Mishra', affiliation: 'Indian Institute of Technology, Ropar' }
+	{ name: 'Prof. Manoranjan Mishra', affiliation: 'Indian Institute of Technology, Ropar' },
+// 	Prof. M. K. Sharma
+// Guru Jambheshwar University of Science and Technology, Hisar
+// Prof. Ahmet Selim DALKILIÇ
+// Yildiz Technical University, Türkiye
+// Prof. Haci Mehmet Baskonus
+// Harran University, Turkey
+// Prof. Kh S Mekheimer
+// Al-Azhar University, Egypt
+// Prof. Siraj-ul-Islam
+// University of Engineering and Technology, Pakistan
+{
+	name: 'Prof. M. K. Sharma',
+	affiliation: 'Guru Jambheshwar University of Science and Technology, Hisar'
+},
+{
+	name: 'Prof. Ahmet Selim DALKILIÇ',
+	affiliation: 'Yildiz Technical University, Türkiye'
+},
+{
+	name: 'Prof. Haci Mehmet Baskonus',
+	affiliation: 'Harran University, Turkey'
+},
+{
+	name: 'Prof. Kh S Mekheimer',
+	affiliation: 'Al-Azhar University, Egypt'
+},
+{
+	name: 'Prof. Siraj-ul-Islam',
+	affiliation: 'University of Engineering and Technology, Pakistan'
+}
 ];
 
 const invitedSpeakers: Speaker[] = [
@@ -59,23 +89,67 @@ const invitedSpeakers: Speaker[] = [
 	},
 	{ name: 'Dr. Kerehalli Vinayaka Prasad', affiliation: 'VSK University, Ballari' },
 	{ name: 'Dr. Hanumesh Vaidya', affiliation: 'VSK University, Ballari' },
-	{ name: 'Prof. Gopal Chandra Shit', affiliation: 'Jadavpur University, Kolkata' },
-	{ name: 'Dr Satyananda Panda', affiliation: 'NIT Calicut' },
+	{ name: 'Dr. Gopal Chandra Shit', affiliation: 'Jadavpur University, Kolkata' },
+	{ name: 'Dr. Satyananda Panda', affiliation: 'NIT Calicut' },
 	{
 		name: 'Dr. Hafiz Muhammad Ali',
 		affiliation: 'King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia'
 	},
-	{ name: 'Samuel O. Adesanya', affiliation: 'Redeemer’s University, Ede, Nigeria' },
+	{ name: 'Dr. Samuel O. Adesanya', affiliation: 'Redeemer’s University, Ede, Nigeria' },
 	{
-		name: 'Prof. Sachin Shaw',
+		name: 'Dr. Sachin Shaw',
 		affiliation: 'Botswana International University of Science and Technology, Botswana'
 	},
 	{ name: 'Dr. Vivekanand', affiliation: 'MNIT Jaipur' },
 	{ name: 'Dr. P Nagarani', affiliation: 'University of West Indies, Jamaica' },
 	{
-		name: 'Dr. E. P. Shiva',
-		affiliation: 'SRM Institute of Science and Technology, Kattankulathur'
-	}
+        name: 'Dr. E. P. Siva',
+        affiliation: 'SRM Institute of Science and Technology, Kattankulathur'
+    },
+    {
+        name: 'Dr. Sukhendu Ghosh',
+        affiliation: 'Indian Institute of Technology, Jodhpur'
+    },
+    {
+        name: 'Dr. Kushal Sharma',
+        affiliation: 'MNIT Jaipur'
+    },
+    {
+        name: 'Dr. Om Suthar',
+        affiliation: 'MNIT Jaipur'
+    },
+    {
+        name: 'Dr. Sreedhara Rao Gunakala',
+        affiliation: 'The University of the West Indies, Trinidad and Tobago'
+    },
+    {
+        name: 'Dr. Najma Saleem',
+        affiliation: 'Prince Mohammad Bin Fahd University, Saudi Arabia'
+    },
+    {
+        name: 'Dr. Mohammad Ferdows',
+        affiliation: 'University of Dhaka, Bangladesh'
+    },
+    {
+        name: 'Dr. Srinivasa Rao Pentyala',
+        affiliation: 'Indian Institute of Technology, Dhanbad'
+    },
+    {
+        name: 'Dr. Mithilesh Chaube',
+        affiliation: 'IIIT Raipur'
+    },
+    {
+        name: 'Dr. Satya Deo',
+        affiliation: 'University of Allahabad, Prayagraj'
+    },
+    {
+        name: 'Dr. Ravi Kant Avvari',
+        affiliation: 'National Institute of Technology, Rourkela'
+    },
+    {
+        name: 'Dr. Buddakkagari Vasu',
+        affiliation: 'Motilal Nehru National Institute of Technology, Allahabad'
+    }
 ];
 
 export const planerySpeakers: Speaker[] = [

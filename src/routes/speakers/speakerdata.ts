@@ -16,6 +16,10 @@ interface ConferenceAddresses {
 const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Suman Chakraborty', affiliation: 'Indian Institute of Technology, Kharagpur' },
 	{ name: 'Prof. Huihe Qiu', affiliation: 'Hong Kong University of Science and Technology, China' },
+	{
+		name:"Prof. Ing. Cameron Tropea",
+		affiliation:"Technical University of Darmstadt, Germany"
+	},
 	{ name: 'Prof. S M Mallikarjunaiah', affiliation: 'Texas A&M University-Corpus Christi, USA' },
 	{ name: 'Prof. Robert J. Poole', affiliation: 'University of Liverpool, UK' },
 	{ name: 'Prof Anuj Mubayi', affiliation: 'Illinois State University, USA' },

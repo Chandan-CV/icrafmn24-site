@@ -68,7 +68,7 @@
 			class=" bg-orange-900 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-32"
 		>
 			<a
-				href="https://www.payumoney.com/customer/users/paymentOptions/#/1011F8DA7C0FCB5EC870FBB52B99DD08/ICRAFMN_2024/219353"
+				href="https://pay.webfront.in/webfront/#/merchantinfo/manipal-university-jaipur/6413"
 				>ICRAFMN-2024 Payment Link</a
 			>
 		</div>

@@ -17,11 +17,15 @@ const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Suman Chakraborty', affiliation: 'Indian Institute of Technology, Kharagpur' },
 	{ name: 'Prof. Huihe Qiu', affiliation: 'Hong Kong University of Science and Technology, China' },
 	{
-		name:"Prof. Ing. Cameron Tropea",
-		affiliation:"Technical University of Darmstadt, Germany"
+		name: 'Prof. Ing. Cameron Tropea',
+		affiliation: 'Technical University of Darmstadt, Germany'
 	},
 	{ name: 'Prof. S M Mallikarjunaiah', affiliation: 'Texas A&M University-Corpus Christi, USA' },
 	{ name: 'Prof. Robert J. Poole', affiliation: 'University of Liverpool, UK' },
+	{
+		name: 'Prof. Vediana Grace Masanja',
+		affiliation: 'Nelson Mandela African Institution of Science and Technology, Tanzania'
+	},
 	{ name: 'Prof Anuj Mubayi', affiliation: 'Illinois State University, USA' },
 	{ name: 'Prof. E. Y. K. Ng', affiliation: 'Nanyang Technological University, Singapore' },
 	{ name: 'Prof. Dave Smith', affiliation: 'University of Birmingham, Edgbaston, UK' },
@@ -47,36 +51,36 @@ const keynoteSpeakers: Speaker[] = [
 	{ name: 'Prof. Rama Bhargava', affiliation: 'Indian Institute of Technology, Roorkee' },
 	{ name: 'Prof. P.G. Siddheswar', affiliation: 'Christ University, Bengaluru' },
 	{ name: 'Prof. Manoranjan Mishra', affiliation: 'Indian Institute of Technology, Ropar' },
-// 	Prof. M. K. Sharma
-// Guru Jambheshwar University of Science and Technology, Hisar
-// Prof. Ahmet Selim DALKILIÇ
-// Yildiz Technical University, Türkiye
-// Prof. Haci Mehmet Baskonus
-// Harran University, Turkey
-// Prof. Kh S Mekheimer
-// Al-Azhar University, Egypt
-// Prof. Siraj-ul-Islam
-// University of Engineering and Technology, Pakistan
-{
-	name: 'Prof. M. K. Sharma',
-	affiliation: 'Guru Jambheshwar University of Science and Technology, Hisar'
-},
-{
-	name: 'Prof. Ahmet Selim DALKILIÇ',
-	affiliation: 'Yildiz Technical University, Türkiye'
-},
-{
-	name: 'Prof. Haci Mehmet Baskonus',
-	affiliation: 'Harran University, Turkey'
-},
-{
-	name: 'Prof. Kh S Mekheimer',
-	affiliation: 'Al-Azhar University, Egypt'
-},
-{
-	name: 'Prof. Siraj-ul-Islam',
-	affiliation: 'University of Engineering and Technology, Pakistan'
-}
+	// 	Prof. M. K. Sharma
+	// Guru Jambheshwar University of Science and Technology, Hisar
+	// Prof. Ahmet Selim DALKILIÇ
+	// Yildiz Technical University, Türkiye
+	// Prof. Haci Mehmet Baskonus
+	// Harran University, Turkey
+	// Prof. Kh S Mekheimer
+	// Al-Azhar University, Egypt
+	// Prof. Siraj-ul-Islam
+	// University of Engineering and Technology, Pakistan
+	{
+		name: 'Prof. M. K. Sharma',
+		affiliation: 'Guru Jambheshwar University of Science and Technology, Hisar'
+	},
+	{
+		name: 'Prof. Ahmet Selim DALKILIÇ',
+		affiliation: 'Yildiz Technical University, Türkiye'
+	},
+	{
+		name: 'Prof. Haci Mehmet Baskonus',
+		affiliation: 'Harran University, Turkey'
+	},
+	{
+		name: 'Prof. Kh S Mekheimer',
+		affiliation: 'Al-Azhar University, Egypt'
+	},
+	// {
+	// 	name: 'Prof. Siraj-ul-Islam',
+	// 	affiliation: 'University of Engineering and Technology, Pakistan'
+	// }
 ];
 
 const invitedSpeakers: Speaker[] = [
@@ -107,53 +111,94 @@ const invitedSpeakers: Speaker[] = [
 	{ name: 'Dr. Vivekanand', affiliation: 'MNIT Jaipur' },
 	{ name: 'Dr. P Nagarani', affiliation: 'University of West Indies, Jamaica' },
 	{
-        name: 'Dr. E. P. Siva',
-        affiliation: 'SRM Institute of Science and Technology, Kattankulathur'
-    },
-    {
-        name: 'Dr. Sukhendu Ghosh',
-        affiliation: 'Indian Institute of Technology, Jodhpur'
-    },
-    {
-        name: 'Dr. Kushal Sharma',
-        affiliation: 'MNIT Jaipur'
-    },
-    {
-        name: 'Dr. Om Suthar',
-        affiliation: 'MNIT Jaipur'
-    },
-    {
-        name: 'Dr. Sreedhara Rao Gunakala',
-        affiliation: 'The University of the West Indies, Trinidad and Tobago'
-    },
-    {
-        name: 'Dr. Najma Saleem',
-        affiliation: 'Prince Mohammad Bin Fahd University, Saudi Arabia'
-    },
-    {
-        name: 'Dr. Mohammad Ferdows',
-        affiliation: 'University of Dhaka, Bangladesh'
-    },
-    {
-        name: 'Dr. Srinivasa Rao Pentyala',
-        affiliation: 'Indian Institute of Technology, Dhanbad'
-    },
-    {
-        name: 'Dr. Mithilesh Chaube',
-        affiliation: 'IIIT Raipur'
-    },
-    {
-        name: 'Dr. Satya Deo',
-        affiliation: 'University of Allahabad, Prayagraj'
-    },
-    {
-        name: 'Dr. Ravi Kant Avvari',
-        affiliation: 'National Institute of Technology, Rourkela'
-    },
-    {
-        name: 'Dr. Buddakkagari Vasu',
-        affiliation: 'Motilal Nehru National Institute of Technology, Allahabad'
-    }
+		name: 'Dr. E. P. Siva',
+		affiliation: 'SRM Institute of Science and Technology, Kattankulathur'
+	},
+	{
+		name: 'Dr. Sukhendu Ghosh',
+		affiliation: 'Indian Institute of Technology, Jodhpur'
+	},
+	{
+		name: 'Dr. Kushal Sharma',
+		affiliation: 'MNIT Jaipur'
+	},
+	{
+		name: 'Dr. Om Suthar',
+		affiliation: 'MNIT Jaipur'
+	},
+	{
+		name: 'Dr. Sreedhara Rao Gunakala',
+		affiliation: 'The University of the West Indies, Trinidad and Tobago'
+	},
+	{
+		name: 'Dr. Najma Saleem',
+		affiliation: 'Prince Mohammad Bin Fahd University, Saudi Arabia'
+	},
+	{
+		name: 'Dr. Mohammad Ferdows',
+		affiliation: 'University of Dhaka, Bangladesh'
+	},
+	{
+		name: 'Dr. Srinivasa Rao Pentyala',
+		affiliation: 'Indian Institute of Technology, Dhanbad'
+	},
+	{
+		name: 'Dr. Mithilesh Chaube',
+		affiliation: 'IIIT Raipur'
+	},
+	{
+		name: 'Dr. Satya Deo',
+		affiliation: 'University of Allahabad, Prayagraj'
+	},
+	{
+		name: 'Dr. Ravi Kant Avvari',
+		affiliation: 'National Institute of Technology, Rourkela'
+	},
+	{
+		name: 'Dr. Buddakkagari Vasu',
+		affiliation: 'Motilal Nehru National Institute of Technology, Allahabad'
+	},
+// 	Dr. Ir. Dr. Mohd Zulkifly Abdullah, Universiti Sains Malaysia, Penang
+// Dr. Veena Sharma, Himachal Pradesh University, Himachal Pradesh
+// Dr. Ameeya K. Nayak, Indian Institute of Technology, Roorkee
+// Dr. Abhishek Kumar Tiwari, MNNIT Allahabad
+// Dr. Pranab K. Mondal, Indian Institute of Technology, Guwahati
+// Dr. M Kothandapani, University College of Engineering Kanchipuram, Tamil Nadu
+// Dr. A. Ravi Kant, NIT Rourkela
+// Dr. Pradeep Muwal, Rajasthan University, Jaipur
+{
+	name: 'Dr. Ir. Dr. Mohd Zulkifly Abdullah',
+	affiliation: 'Universiti Sains Malaysia, Penang'
+
+},
+{
+	name:'Dr. Veena Sharma',
+	affiliation:'Himachal Pradesh University, Himachal Pradesh'
+},
+{
+  name:'Dr. Ameeya K. Nayak',
+  affiliation:'Indian Institute of Technology, Roorkee'
+},
+{
+  name:'Dr. Abhishek Kumar Tiwari',
+  affiliation:'MNNIT Allahabad'
+},
+{
+  name:'Dr. Pranab K. Mondal',
+  affiliation:'Indian Institute of Technology, Guwahati'
+},
+{
+  name:'Dr. M Kothandapani',
+  affiliation:'University College of Engineering Kanchipuram, Tamil Nadu'
+},
+{
+  name:'Dr. A. Ravi Kant',
+  affiliation:'NIT Rourkela'
+},
+{
+  name:'Dr. Pradeep Muwal',
+  affiliation:'Rajasthan University, Jaipur'
+},
 ];
 
 export const planerySpeakers: Speaker[] = [

@@ -9,7 +9,7 @@
 		<h1 class="text-black font-InterTight font-semibold text-2xl pb-5">Fee Table</h1>
 		<table class="table-auto text-black font-InterTight w-full text-center text-lg">
 			<tr class="">
-				<th colspan="5" class="font-semibold">Registration Fee (last date April 15, 2024)</th>
+				<th colspan="5" class="font-semibold">Registration Fee (last date May 5, 2024)</th>
 			</tr>
 			<tr class="text-sm font-bold">
 				<td>Nationality</td>
@@ -38,7 +38,7 @@
 			<p>
 				*Special Discount in the registration fees will be offered to IAESTE membership students and
 				participants belonging to SAARC countries. To avail the special discount please write an
-				email to icrafmn2024@manipal.edu.
+				email to icrafmn2024@gmail.com.
 			</p>
 			<p>
 				The conference registration fee includes abstract presentation and food during the

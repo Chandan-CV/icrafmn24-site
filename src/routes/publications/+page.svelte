@@ -32,11 +32,15 @@ Note: Some more Scopus and Web of Science indexed publications will be added aft
 			</p>
 		</div> -->
 
-		<p class ="text-2xl mb-10 font-bold">The selected papers will be published with no APC charges in the special issues of:</p>
+		<p class="text-2xl mb-10 font-bold">
+			The selected papers will be published with no APC charges in the special issues of:
+		</p>
 
-		<table class="border border-black text-center text-lg ">
+		<table class="border border-black text-center text-lg">
 			<tr>
-				<td class="border border-black font-bold"> Journal: International Journal of Thermofluids </td>
+				<td class="border border-black font-bold">
+					Journal: International Journal of Thermofluids
+				</td>
 				<td class="border border-black font-bold">
 					Journal: Special Topics & Reviews in Porous Media: An International Journal
 				</td>
@@ -68,33 +72,43 @@ Note: Some more Scopus and Web of Science indexed publications will be added aft
 			</td>
 		</table>
 
-		<table class="border border-black text-center text-lg mt-20 ">
+		<table class="border border-black text-center text-lg mt-20">
 			<tr>
-				<td class="border border-black font-bold"> Journal: Critical Reviews in Biomedical Engineering </td>
 				<td class="border border-black font-bold">
-					Journal: Science Talks
+					Journal: Critical Reviews in Biomedical Engineering
 				</td>
+				<td class="border border-black font-bold"> Journal: Science Talks </td>
 			</tr>
 			<tr>
 				<td class="border border-black">
-					(ISSN: 0278-940X, Scopus Indexed,
-Begell House, Quartile-3),
+					(ISSN: 0278-940X, Scopus Indexed, Begell House, Quartile-3),
 				</td>
-				<td class="border border-black">
-					(ISSN: 2772-5693, Elsevier)
-				</td>
-				
+				<td class="border border-black"> (ISSN: 2772-5693, Elsevier) </td>
 			</tr>
 
+			<td class="border border-black"> Call for Papers-Special Issue: Mathematical Biology </td>
 			<td class="border border-black">
-				Call for Papers-Special Issue:
-Mathematical Biology
+				Call for Papers-Special Issue: ICRAFMN-2024: Recent Advancements in Fluid and Heat Flow
 			</td>
+		</table>
+
+		<table class="border border-black text-center text-lg mt-20">
+			<tr>
+				<td class="border border-black font-bold">
+					Journal: Journal of Thermal Engineering				</td>
+				<td class="border border-black font-bold"> Journal: Sigma Journal of Engineering and Natural Sciences </td>
+			</tr>
+			<tr>
+				<td class="border border-black">
+					(ISSN: 2148-7847, Scopus Indexed, Quartile-3)
+				</td>
+				<td class="border border-black"> (ISSN: 1304-7191, WOS (ESCI)) </td>
+			</tr>
+
+			<td class="border border-black"> Call for Papers-Regular Issue </td>
 			<td class="border border-black">
-				Call for Papers-Special Issue:
-ICRAFMN-2024: Recent Advancements in Fluid and Heat Flow
+				Call for Papers-Regular Issue
 			</td>
-			
 		</table>
 		<div class="mt-16">
 			<p class="font-InterTight text-2xl font-semibold text-black pb-3 text-center animate-pulse">

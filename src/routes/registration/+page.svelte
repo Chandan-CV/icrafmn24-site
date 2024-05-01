@@ -9,7 +9,7 @@
 		<h1 class="text-black font-InterTight font-semibold text-2xl pb-5">Fee Table</h1>
 		<table class="table-auto text-black font-InterTight w-full text-center text-lg">
 			<tr class="">
-				<th colspan="5" class="font-semibold">Registration Fee (last date May 5, 2024)</th>
+				<th colspan="5" class="font-semibold">Registration Fee (last date May 25, 2024)</th>
 			</tr>
 			<tr class="text-sm font-bold">
 				<td>Nationality</td>
@@ -63,24 +63,33 @@
 			<!-- <p class="text-lg font-bold">Students/Research Scholars without any financial support can request through email for free accommodation.</p> -->
 		</div>
 	</div>
-	<div class="flex w-full justify-evenly flex-row-reverse flex-wrap">
+	<div class="flex w-full justify-evenly flex-row-reverse flex-wrap text-center mb-20">
 		<div
-			class=" bg-orange-900 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-32"
+		class=" bg-orange-900 text-white p-5 rounded-2xl px-10 text-lg font-semibold cursor-pointer m-6"
+	>
+		<a
+			href="https://rzp.io/l/A7Fe5sm"
+			>ICRAFMN-2024 Payment link for International Participants</a
+		>
+	</div>
+		<div
+			class=" bg-orange-900 text-white p-5 rounded-2xl px-10 text-lg font-semibold cursor-pointer   m-6"
 		>
 			<a
 				href="https://pay.webfront.in/webfront/#/merchantinfo/manipal-university-jaipur/6413"
-				>ICRAFMN-2024 Payment Link</a
+				>ICRAFMN-2024 Payment link for Indian Participants</a
 			>
 		</div>
 
 		<div
-			class=" bg-orange-900 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-32"
+			class=" bg-orange-900 text-white p-5 rounded-2xl px-10 text-2xl font-semibold cursor-pointer mb-32n m-6"
 		>
 			<a
 				href="https://forms.gle/rJL88B6nMRp85VxH6"
 				>Register now</a
 			>
 		</div>
+		
 	</div>
 </div>
 

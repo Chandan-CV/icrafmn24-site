@@ -9,7 +9,7 @@
 		<h1 class="text-black font-InterTight font-semibold text-2xl pb-5">Fee Table</h1>
 		<table class="table-auto text-black font-InterTight w-full text-center text-lg">
 			<tr class="">
-				<th colspan="5" class="font-semibold">Registration Fee (last date June 15, 2024)</th>
+				<th colspan="5" class="font-semibold">Registration Fee (last date June 25, 2024)</th>
 			</tr>
 			<tr class="text-sm font-bold">
 				<td>Nationality</td>
